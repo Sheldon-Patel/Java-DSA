@@ -9,7 +9,7 @@ public class datatype {
 
 
 
-        //numeric data byte,short,int,long
+        //numeric datatype: byte,short,int,long
         byte num1 = 5;
         System.out.println(num1);
         //implicit typecasting
