@@ -24,7 +24,7 @@ public class datatype {
         System.out.println(num3);
         System.out.println(num4);
 
-//        floating DT float,double
+    //floating DT: float,double
         float num5=3.14f;
         System.out.println(num5);
 
