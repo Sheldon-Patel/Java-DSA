@@ -37,6 +37,23 @@ public class operators {
         System.out.println(completedDSA && completedCore);
         System.out.println(completedDSA || completedCore);
         System.out.println(!completedCore);
+
+        int ratingPoints = 100;
+
+        ratingPoints += 20;  // ratingPoints = ratingPoints + 20
+        System.out.println(ratingPoints);
+        ratingPoints -= 10;  // ratingPoints = ratingPoints - 10
+        System.out.println(ratingPoints);
+        ratingPoints *= 2;   // ratingPoints = ratingPoints * 2
+        System.out.println(ratingPoints);
+
+        ratingPoints /= 4;   // ratingPoints = ratingPoints / 4
+        System.out.println(ratingPoints);
+
+        ratingPoints %= 30;  // ratingPoints = ratingPoints % 30
+        System.out.println(ratingPoints);
+
+
     }
 }
 
