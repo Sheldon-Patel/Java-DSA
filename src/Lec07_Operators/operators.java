@@ -59,7 +59,9 @@ public class operators {
 // unary inc/dec operator
         int activeUsers = 100;
 
+        // first inc 101 the use
         int prefix = ++activeUsers;
+        // phela use 101 then inc 102
         int postfix = activeUsers++;
 
         System.out.println(prefix);
