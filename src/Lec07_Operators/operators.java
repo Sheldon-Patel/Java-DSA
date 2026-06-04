@@ -38,22 +38,33 @@ public class operators {
         System.out.println(completedDSA || completedCore);
         System.out.println(!completedCore);
 
+        // assignment operator
         int ratingPoints = 100;
 
-        ratingPoints += 20;  // ratingPoints = ratingPoints + 20
-        System.out.println(ratingPoints);
-        ratingPoints -= 10;  // ratingPoints = ratingPoints - 10
-        System.out.println(ratingPoints);
-        ratingPoints *= 2;   // ratingPoints = ratingPoints * 2
+        ratingPoints += 20;  // ratingPoints = ratingPoints + 20   100+20
         System.out.println(ratingPoints);
 
-        ratingPoints /= 4;   // ratingPoints = ratingPoints / 4
+        ratingPoints -= 10;  // ratingPoints = ratingPoints - 10         120-10
         System.out.println(ratingPoints);
 
-        ratingPoints %= 30;  // ratingPoints = ratingPoints % 30
+        ratingPoints *= 2;   // ratingPoints = ratingPoints * 2          110*2
         System.out.println(ratingPoints);
 
+        ratingPoints /= 4;   // ratingPoints = ratingPoints / 4        220/4
+        System.out.println(ratingPoints);
 
+        ratingPoints %= 30;  // ratingPoints = ratingPoints % 30         55%30
+        System.out.println(ratingPoints);
+
+// unary inc/dec operator
+        int activeUsers = 100;
+
+        int prefix = ++activeUsers;
+        int postfix = activeUsers++;
+
+        System.out.println(prefix);
+        System.out.println(postfix);
+        System.out.println(activeUsers);
     }
 }
 
