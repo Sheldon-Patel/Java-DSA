@@ -21,8 +21,19 @@ public class TakingInput {
         BigInteger bg = sc.nextBigInteger();
         System.out.println("big integer:"+bg);
 
+        System.out.println(" enter the flag ");
         boolean flag = sc.nextBoolean();
+        System.out.println(" enter the short ");
         short shortVal = sc.nextShort();
-        System.out.println(" ");
+        System.out.println(" enter the float ");
+        float floatValue = sc.nextFloat();
+
+
+        System.out.println("boolean:"+flag);
+        System.out.println("short:"+shortVal);
+        System.out.println("float:"+floatValue);
+
+
+        sc.close();
     }
 }
