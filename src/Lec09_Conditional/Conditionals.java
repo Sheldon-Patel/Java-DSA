@@ -1,5 +1,7 @@
 package Lec09_Conditional;
 
+import java.util.Scanner;
+
 public class Conditionals {
     static void main() {
         // if statement
@@ -74,6 +76,28 @@ public class Conditionals {
             System.out.println("sunday");
         }
         System.out.println("abb ma line 76 par aaya hu");
+
+        // switch statement
+        System.out.println("enter the value of day");
+        Scanner sc = new Scanner(System.in);
+        int day1 = sc.nextInt();
+
+        switch (day1){
+            case 1:
+                System.out.println("monday");
+            case 2:
+                System.out.println("tue");
+            case 3:
+                System.out.println("wed");
+            case 4:
+                System.out.println("thu");
+            case 5:
+                System.out.println("fri");
+            case 6:
+                System.out.println("sat");
+            default:
+                System.out.println("sunday");
+        }
 
         //nested if else statement
         boolean hasSubscription = true;
