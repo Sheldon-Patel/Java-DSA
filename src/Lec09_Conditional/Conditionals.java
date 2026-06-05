@@ -78,7 +78,7 @@ public class Conditionals {
         //nested if else statement
         boolean hasSubscription = true;
         int solvedProblems = 220;
-
+              // hassubscription is true
         if (hasSubscription) {
 
             if (solvedProblems >= 200) {
@@ -89,6 +89,30 @@ public class Conditionals {
 
         } else {
             System.out.println("Upgrade to Premium");
+        }
+
+
+        int age2 = 12;
+        int gender ='M';
+        // true aaya means execute if and ignore else
+        if(gender == 'M' ){
+            System.out.println("you are male");
+            // false mean ignore if and execute else
+            if(age > 18){
+                System.out.println("you are male and age>18");
+            }
+            else{
+                System.out.println("you are male and age<18");
+            }
+        }
+        else {
+            System.out.println("you are not male");
+            if(age > 18){
+                System.out.println("you are not male and age>18");
+            }
+            else{
+                System.out.println("you are not male and age<18");
+            }
         }
     }
 }
