@@ -74,6 +74,22 @@ public class Conditionals {
             System.out.println("sunday");
         }
         System.out.println("abb ma line 76 par aaya hu");
+
+        //nested if else statement
+        boolean hasSubscription = true;
+        int solvedProblems = 220;
+
+        if (hasSubscription) {
+
+            if (solvedProblems >= 200) {
+                System.out.println("Unlock Advanced Sheet");
+            } else {
+                System.out.println("Practice More Problems");
+            }
+
+        } else {
+            System.out.println("Upgrade to Premium");
+        }
     }
 }
 
