@@ -105,7 +105,7 @@ public class Conditionals {
                 System.out.println("sunday");
         }
 
-        //nested if else statement
+        // Nested if-else statement
         boolean hasSubscription = true;
         int solvedProblems = 220;
               // hassubscription is true
