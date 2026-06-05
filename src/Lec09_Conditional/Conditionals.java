@@ -114,6 +114,13 @@ public class Conditionals {
                 System.out.println("you are not male and age<18");
             }
         }
+
+        // ternary operator
+        int streakDays = 35;
+
+        String status = (streakDays >= 30) ? "Consistent" : "Irregular";
+
+        System.out.println(status);
     }
 }
 
