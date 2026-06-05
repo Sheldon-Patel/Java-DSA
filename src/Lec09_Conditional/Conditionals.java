@@ -23,6 +23,33 @@ public class Conditionals {
             System.out.println("Fail");
         }
 
+        int age1 = 20;
+
+        if(age>18)
+        {
+            System.out.println("can vote");
+
+        }
+        else
+        {
+            System.out.println("can not vote");
+        }
+
+        // if-else-if condition
+        int accuracy = 78;
+
+        if (accuracy >= 90) {
+            System.out.println("Excellent");
+        }
+        else if (accuracy >= 75) {
+            System.out.println("Good");
+        }
+        else if (accuracy >= 60) {
+            System.out.println("Average");
+        }
+        else {
+            System.out.println("Needs Improvement");
+        }
     }
 }
 
