@@ -98,7 +98,7 @@ public class Conditionals {
         if(gender == 'M' ){
             System.out.println("you are male");
             // false mean ignore if and execute else
-            if(age > 18){
+            if(age2 > 18){
                 System.out.println("you are male and age>18");
             }
             else{
@@ -107,7 +107,7 @@ public class Conditionals {
         }
         else {
             System.out.println("you are not male");
-            if(age > 18){
+            if(age2 > 18){
                 System.out.println("you are not male and age>18");
             }
             else{
@@ -121,6 +121,11 @@ public class Conditionals {
         String status = (streakDays >= 30) ? "Consistent" : "Irregular";
 
         System.out.println(status);
+
+        int age3 = 10;
+                    //      true:false
+        int ans = (age>18) ? 22 : 18;
+        System.out.println(ans);
     }
 }
 
