@@ -37,11 +37,21 @@ public class loop {
 //            System.out.println(i);
 //        }
 
-        for(int i=1;i<=10;i++) {
-            if (i == 5 || i==6 || i==7) {
-                continue; // skip 5   // skip 5,6,7
-            }
-            System.out.println(i);
+//        for(int i=1;i<=10;i++) {
+//            if (i == 5 || i==6 || i==7) {
+//                continue; // skip 5   // skip 5,6,7
+//            }
+//            System.out.println(i);
+//        }
+        //init
+        int i = 1;
+        // condition
+        while(1<=10){
+            //process
+            System.out.println(("love babbarr "));
+
+            // updatation
+            i++;
         }
 
     }
