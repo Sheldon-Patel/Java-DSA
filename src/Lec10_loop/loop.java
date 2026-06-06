@@ -14,5 +14,9 @@ public class loop {
          for(int j=1; j<=20; j+=2){
              System.out.println(j);
          }
+
+        for(int j=2; j<=20; j+=2){
+            System.out.println(j);
+        }
     }
 }
