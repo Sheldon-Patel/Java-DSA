@@ -30,9 +30,16 @@ public class loop {
 //                System.out.println("i=" + i + ",j=" + j);
 //            }
 //        }
+//        for(int i=1;i<=10;i++) {
+//            if (i == 5) {
+//                break;
+//            }
+//            System.out.println(i);
+//        }
+
         for(int i=1;i<=10;i++) {
-            if (i == 5) {
-                break;
+            if (i == 5 || i==6 || i==7) {
+                continue; // skip 5   // skip 5,6,7
             }
             System.out.println(i);
         }
