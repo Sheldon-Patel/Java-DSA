@@ -18,12 +18,17 @@ public class loop {
 //        for(int j=2; j<=20; j+=2){
 //            System.out.println(j);
 //        }
-
-        for(int i=1;i<=3;i++){ // row
-            for (int j=1; j<=3; j++){ // coloumns
-                System.out.print("* ");
+//
+//        for(int i=1;i<=3;i++){ // row
+//            for (int j=1; j<=3; j++){ // coloumns
+//                System.out.print("* ");
+//            }
+//            System.out.println();// move to next line
+ //       }
+        for(int i=1;i<=3;i++) {
+            for (int j = 1; j <= 3; j++) {
+                System.out.println("i=" + i + ",j=" + j);
             }
-            System.out.println();// move to next line
         }
     }
 }
