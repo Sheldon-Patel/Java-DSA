@@ -10,5 +10,9 @@ public class loop {
          for (int a=1; a<=10; a++){
              System.out.println("love babbar");
          }
+
+         for(int j=1; j<=20; j+=2){
+             System.out.println(j);
+         }
     }
 }
