@@ -7,7 +7,7 @@ public class loop {
              System.out.println("val of i:"+i) ;
          }
 
-         for (int a=1; a<=110; a++){
+         for (int a=1; a<=10; a++){
              System.out.println("love babbar");
          }
     }
