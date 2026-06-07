@@ -69,12 +69,12 @@ public class loop {
 //        }
 
         // do while
-        int i=1;
+        int i=1;  //init
 
         do{
             System.out.println(i);
-            i++;
-        }while (i<=0);
+            i++;     //update
+        }while (i<=0);     //condition
 // the condition is false but it will run at least one time then the condition is checked
     }
 }
