@@ -43,18 +43,38 @@ public class loop {
 //            }
 //            System.out.println(i);
 //        }
-        //init
-        int i = 1;
-        // condition
-        while(1<=10){
-            //process
-            System.out.println(("love babbarr "));
 
-            // updatation
+        //while
+//        //init
+//        int i = 1;
+//        // condition
+//        while(1<=10){
+//            //process
+//            System.out.println(("love babbarr "));
+//
+//            // updatation
+//            i++;
+//        }
+
+        //nested while loop
+//        int i=1;
+//        while(i<=2){
+//            int j =1;
+//            while(j<=3){
+//                System.out.println("i=" + i + ",j=" + j);
+//                j++;
+//
+//            }
+//            i++;
+//        }
+
+        // do while
+        int i=1;
+
+        do{
+            System.out.println(i);
             i++;
-        }
-
-        continue while nested
+        }while (i<=5);  
 
     }
 }
