@@ -74,7 +74,7 @@ public class loop {
         do{
             System.out.println(i);
             i++;
-        }while (i<=5);  
-
+        }while (i<=0);
+// the condition is false but it will run at least one time then the condition is checked
     }
 }
