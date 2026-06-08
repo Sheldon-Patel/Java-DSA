@@ -25,14 +25,30 @@ public class pattern {
 //            }
 
         // patern 3: right angle
+//            int n=5;
+//            for(int row=1; row<=n; row++){
+//                //for each row -> varable coloum
+//                // formula-> col -> (1->value of row)
+//                for(int col=1; col<=row;col++ ){
+//                    System.out.print("* ");
+//                }
+//                // move to next line
+//                System.out.println();
+//            }
+
+        // patern 4: solid rhombus
             int n=5;
             for(int row=1; row<=n; row++){
-                //for each row -> varable coloum
-                // formula-> col -> (1->value of row)
-                for(int col=1; col<=row;col++ ){
-                    System.out.print("* ");
+                // for each row :space,star
+// the col variable is in different for loop so its ok
+                //space
+                for (int col=1; col<=n-row; col++){
+                    System.out.print("  ");
                 }
-                // move to next line
+                //star
+                 for(int col=1; col<=n; col++){
+                     System.out.print("* ");
+                 }
                 System.out.println();
             }
     }
