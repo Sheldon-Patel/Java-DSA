@@ -32,6 +32,7 @@ public class pattern {
                 for(int col=1; col<=row;col++ ){
                     System.out.print("* ");
                 }
+                // move to next line
                 System.out.println();
             }
     }
