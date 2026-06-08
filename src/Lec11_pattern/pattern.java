@@ -37,19 +37,30 @@ public class pattern {
 //            }
 
         // patern 4: solid rhombus
-            int n=5;
-            for(int row=1; row<=n; row++){
-                // for each row :space,star
-// the col variable is in different for loop so its ok
-                //space
-                for (int col=1; col<=n-row; col++){
-                    System.out.print("  ");
-                }
-                //star
-                 for(int col=1; col<=n; col++){
-                     System.out.print("* ");
-                 }
-                System.out.println();
+//            int n=5;
+//            for(int row=1; row<=n; row++){
+//                // for each row :space,star
+//// the col variable is in different for loop so its ok
+//                //space
+//                for (int col=1; col<=n-row; col++){
+//                    System.out.print("  ");
+//                }
+//                //star
+//                 for(int col=1; col<=n; col++){
+//                     System.out.print("* ");
+//                 }
+//                System.out.println();
+//            }
+
+        // pattern 5: inverted right angle triangle
+        int n=5;
+        for (int row=1; row<=n; row++){
+                 //for each row -> variable coloum
+
+            for (int col=1; col<=n-row+1; col++){
+                System.out.print("* ");
             }
+            System.out.println();
+        }
     }
 }
