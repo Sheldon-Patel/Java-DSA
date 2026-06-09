@@ -80,18 +80,50 @@ public class pattern {
 
 
         //pattern 7:inverted solid pyramid
-        int n=5;
-        for (int row=1; row<=n; row++) {
-//                 for each row -> variable coloum
-                    // spaces
-            for (int col=1; col<=row-1; col++) {
-                System.out.print(" ");
-            }
-            //star
-            for (int col=1; col<=2*n-2*row+1; col++){
-                System.out.print("*");
-            }
-            System.out.println();
-        }
+//        int n=5;
+//        for (int row=1; row<=n; row++) {
+////                 for each row -> variable coloum
+//                    // spaces
+//            for (int col=1; col<=row-1; col++) {
+//                System.out.print(" ");
+//            }
+//            //star
+//            for (int col=1; col<=2*n-2*row+1; col++){
+//                System.out.print("*");
+//            }
+//            System.out.println();
+//        }
+
+
+
+        //pattern 8: holo rectangle
+        int n=4;
+                for (int row=1; row<=n; row++) {
+                // for each row -> 6 columns
+                    for ( int col=1 ;col<=6;col++){
+                        if(row==1|| row==n){
+                            System.out.print("* ");
+                        }
+                        else{
+                            // middle row
+//                            if(col==1){
+//                                System.out.print("* ");
+//                            }
+//                            else if(col==6) {
+//                                System.out.print("* ");
+//                            }
+                            if(col==1 || col==6){
+                                System.out.print("* ");
+                            }
+                            else {
+                                // middle colums
+                                System.out.print("  ");
+                            }
+                        }
+                    }
+                    System.out.println();
+                }
+
+
     }
 }
