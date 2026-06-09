@@ -52,15 +52,22 @@ public class pattern {
 //                System.out.println();
 //            }
 
-        // pattern 5: inverted right angle triangle
-        int n=5;
-        for (int row=1; row<=n; row++){
-                 //for each row -> variable coloum
+//        // pattern 5: inverted right angle triangle
+//        int n=5;
+//        for (int row=1; row<=n; row++){
+//                 //for each row -> variable coloum
+//
+//            for (int col=1; col<=n-row+1; col++){
+//                System.out.print("* ");
+//            }
+//            System.out.println();
+//        }
 
-            for (int col=1; col<=n-row+1; col++){
-                System.out.print("* ");
-            }
-            System.out.println();
+        //pattern 6:solid pyramid
+        int n=5;
+        for (int row=1; row<=n; row++) {
+//                 for each row -> variable coloum
+
         }
     }
 }
