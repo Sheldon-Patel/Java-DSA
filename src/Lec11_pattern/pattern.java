@@ -245,7 +245,7 @@ public class pattern {
         }
         //part 2
         for(int row =1; row<=(n-1);row++){
-            // each row-> variable col
+            // each row-> variable column
 
            // part1
             for (int col=1;col<=row;col++)
