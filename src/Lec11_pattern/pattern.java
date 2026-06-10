@@ -224,7 +224,7 @@ public class pattern {
                 System.out.print("   ");
             }
             //part 2
-            if (row==1||row==n){
+            if (row==1 ){
                 for(int col=1;col<=2*row-1;col++){
                     System.out.print("*  ");
                 }
@@ -242,6 +242,14 @@ public class pattern {
 
                 }
             System.out.println();
+        }
+        //part 2
+        for(int row =1; row<=(n-1);row++){
+            // each row-> variable col
+
+           // part1
+            for (int col=1;col<  )
+            //part2
         }
     }
 }
