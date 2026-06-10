@@ -248,8 +248,26 @@ public class pattern {
             // each row-> variable col
 
            // part1
-            for (int col=1;col<  )
+            for (int col=1;col<row;col++)
+                System.out.print ("  ");
             //part2
+            if(row==(n-1)){
+                System.out.print("* ");
+            }
+            else{
+                // remaining row
+               // 1*
+                System.out.print("* ");
+
+                //(2(n-r)-3) space
+                for (int col=1; col<=2*(n-row)-3 ; col++) {
+                    System.out.print("   ");
+                }
+               // 1*
+                System.out.print("* ");
+
+            }
+            System.out.println();
         }
     }
 }
