@@ -214,11 +214,11 @@ public class pattern {
 //        }
 
 
-        //pattern 12: holo diamond
+        //pattern 12: holo diamond pattern
         // part 1
         int n=4;
         for (int row=1; row<=n; row++) {
-            // for each row ->variable columns
+            // for each row -> variable columns
             //spaces part1
             for(int col=1;col<=n-row;col++){
                 System.out.print("  ");
