@@ -233,7 +233,7 @@ public class pattern {
                 //middle row
                 // 1*
                 System.out.print("* ");
-                //2r-3 space
+                //2row-3 space
                 for(int col=1;col<=2*row-3;col++){
                     System.out.print("  ");
                 }
@@ -245,7 +245,7 @@ public class pattern {
         }
         //part 2
         for(int row =1; row<=(n-1);row++){
-            // each row-> variable column
+            // each row -> variable column
 
            // part1
             for (int col=1;col<=row;col++)
