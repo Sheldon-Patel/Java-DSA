@@ -66,7 +66,7 @@ public class pattern {
         //pattern 6:solid pyramid
 //        int n=5;
 //        for (int row=1; row<=n; row++) {
-////                 for each row -> variable coloum
+//              for each row -> variable coloum
 //                    // spaces
 //            for (int col=1; col<=n-row; col++) {
 //                System.out.print(" ");
@@ -151,34 +151,49 @@ public class pattern {
 
 
         //pattern 10: holo pyramid
-        int n =5;
-        for (int row=1; row<=n; row++) {
-            // for each row ->variable columns
-            //spaces part1
-            for(int col=1;col<=n-row;col++){
-                System.out.print("   ");
-            }
-            //part 2
-            if (row==1||row==n){
-                for(int col=1;col<=2*row-1;col++){
-                    System.out.print("*  ");
-                }
-            }
-            else {
-                //middle row
-                // 1*
-                System.out.print("* ");
-                //2r-3 space
-                for(int col=1;col<=2*row-3;col++){
-                    System.out.print("   ");
-                }
-                // 1*
-                System.out.print("* ");
+//        int n =5;
+//        for (int row=1; row<=n; row++) {
+//            // for each row ->variable columns
+//            //spaces part1
+//            for(int col=1;col<=n-row;col++){
+//                System.out.print("   ");
+//            }
+//            //part 2
+//            if (row==1||row==n){
+//                for(int col=1;col<=2*row-1;col++){
+//                    System.out.print("*  ");
+//                }
+//            }
+//            else {
+//                //middle row
+//                // 1*
+//                System.out.print("* ");
+//                //2r-3 space
+//                for(int col=1;col<=2*row-3;col++){
+//                    System.out.print("   ");
+//                }
+//                // 1*
+//                System.out.print("* ");
+//
+//                }
+//            System.out.println();
+//        }
 
-                }
+
+        //pattern 11: solid diamond
+        int n=4;
+        for (int row=1; row<=n; row++) {
+            // for each row -> variable coloum
+                   //  spaces
+            for (int col=1; col<=n-row; col++) {
+                System.out.print("  ");
+            }
+       // star
+            for (int col=1; col<=2*row-1; col++){
+                System.out.print("* ");
+            }
             System.out.println();
         }
-
 
 
 
