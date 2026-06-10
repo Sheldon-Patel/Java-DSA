@@ -221,12 +221,12 @@ public class pattern {
             // for each row ->variable columns
             //spaces part1
             for(int col=1;col<=n-row;col++){
-                System.out.print("   ");
+                System.out.print("  ");
             }
             //part 2
             if (row==1 ){
                 for(int col=1;col<=2*row-1;col++){
-                    System.out.print("*  ");
+                    System.out.print("* ");
                 }
             }
             else {
@@ -235,7 +235,7 @@ public class pattern {
                 System.out.print("* ");
                 //2r-3 space
                 for(int col=1;col<=2*row-3;col++){
-                    System.out.print("   ");
+                    System.out.print("  ");
                 }
                 // 1*
                 System.out.print("* ");
@@ -248,7 +248,7 @@ public class pattern {
             // each row-> variable col
 
            // part1
-            for (int col=1;col<row;col++)
+            for (int col=1;col<=row;col++)
                 System.out.print ("  ");
             //part2
             if(row==(n-1)){
@@ -261,7 +261,7 @@ public class pattern {
 
                 //(2(n-r)-3) space
                 for (int col=1; col<=2*(n-row)-3 ; col++) {
-                    System.out.print("   ");
+                    System.out.print("  ");
                 }
                // 1*
                 System.out.print("* ");
