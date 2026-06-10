@@ -127,27 +127,45 @@ public class pattern {
 
 
         //pattern 9: holo right angle
+//        int n =10;
+//        for (int row=1; row<=n; row++) {
+//             // for each row ->variable columns
+//            if(row==1||row==2||row==n){
+//                for(int col=1;col<=row;col++){
+//                    System.out.print ("* ");
+//                }
+//            }
+//            else{
+//                //middle row
+//                // 1*
+//                System.out.print("* ");
+//                //(row-2)space
+//                for(int col=1;col<=(row-2);col++){
+//                    System.out.print("  ");
+//                }
+//                // 1*
+//                System.out.print("* ");
+//            }
+//            System.out.println();
+//        }
+
+
+        //pattern 10: holo pyramid
         int n =10;
         for (int row=1; row<=n; row++) {
-             // for each row ->variable columns
-            if(row==1||row==2||row==n){
-                for(int col=1;col<=row;col++){
-                    System.out.print ("* ");
+            // for each row ->variable columns
+            //spaces part1
+            for(int col=1;col<=row-1;col++){
+                System.out.print("  ");
+            }
+            //part 2
+            if (row==1||row==n){
+                for(int col=1;col<=2*row-1;col++){
+                    System.out.print("*  ");
                 }
             }
-            else{
-                //middle row
-                // 1*
-                System.out.print("* ");
-                //(row-2)space
-                for(int col=1;col<=(row-2);col++){
-                    System.out.print("  ");
-                }
-                // 1*
-                System.out.print("* ");
-            }
-            System.out.println();
         }
+
 
 
 
