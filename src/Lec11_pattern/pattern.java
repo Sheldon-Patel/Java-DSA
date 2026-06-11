@@ -216,58 +216,77 @@ public class pattern {
 
         //pattern 12: holo diamond pattern
         // part 1
+//        int n=4;
+//        for (int row=1; row<=n; row++) {
+//            // for each row -> variable columns
+//            //spaces part1
+//            for(int col=1;col<=n-row;col++){
+//                System.out.print("  ");
+//            }
+//            //part 2
+//            if (row==1 ){
+//                for(int col=1;col<=2*row-1;col++){
+//                    System.out.print("* ");
+//                }
+//            }
+//            else {
+//                //middle row
+//                // 1*
+//                System.out.print("* ");
+//                //2row-3 space
+//                for(int col=1;col<=2*row-3;col++){
+//                    System.out.print("  ");
+//                }
+//                // 1*
+//                System.out.print("* ");
+//
+//                }
+//            System.out.println();
+//        }
+//        //part 2
+//        for(int row =1; row<=(n-1);row++){
+//            // each row -> variable column
+//
+//           // part1
+//            for (int col=1;col<=row;col++)
+//                System.out.print ("  ");
+//            //part2
+//            if(row==(n-1)){
+//                System.out.print("* ");
+//            }
+//            else{
+//                // remaining row
+//               // 1*
+//                System.out.print("* ");
+//
+//                //(2(n-r)-3) space
+//                for (int col=1; col<=2*(n-row)-3 ; col++) {
+//                    System.out.print("  ");
+//                }
+//               // 1*
+//                System.out.print("* ");
+//
+//            }
+//            System.out.println();
+//        }
+
+        //pattern 13: symateric pattern
         int n=4;
-        for (int row=1; row<=n; row++) {
-            // for each row -> variable columns
-            //spaces part1
-            for(int col=1;col<=n-row;col++){
+        for(int row=1; row<=n; row++){
+             // part 1
+            for(int col=1; col<=row; col++){
+                System.out.print("* ");
+            }
+            // part 2
+            for(int col=1; col<=2*(n-row); col++){
                 System.out.print("  ");
             }
-            //part 2
-            if (row==1 ){
-                for(int col=1;col<=2*row-1;col++){
-                    System.out.print("* ");
-                }
-            }
-            else {
-                //middle row
-                // 1*
-                System.out.print("* ");
-                //2row-3 space
-                for(int col=1;col<=2*row-3;col++){
-                    System.out.print("  ");
-                }
-                // 1*
-                System.out.print("* ");
 
-                }
+                // part 3
             System.out.println();
         }
-        //part 2
-        for(int row =1; row<=(n-1);row++){
-            // each row -> variable column
 
-           // part1
-            for (int col=1;col<=row;col++)
-                System.out.print ("  ");
-            //part2
-            if(row==(n-1)){
-                System.out.print("* ");
-            }
-            else{
-                // remaining row
-               // 1*
-                System.out.print("* ");
 
-                //(2(n-r)-3) space
-                for (int col=1; col<=2*(n-row)-3 ; col++) {
-                    System.out.print("  ");
-                }
-               // 1*
-                System.out.print("* ");
 
-            }
-            System.out.println();
-        }
     }
 }
