@@ -422,8 +422,10 @@ public class pattern {
                 System.out.print(finalAns+" ");
             }
             // part 3
+            char toPrint =(char) (row + 'A' -2);
             for (int col = 1; col <=row-1; col++) {
-                System.out.print("* ");
+                System.out.print(toPrint+" ");
+                toPrint--; 
             }
             System.out.println();
         }
