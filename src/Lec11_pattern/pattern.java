@@ -366,12 +366,29 @@ public class pattern {
 //            }
 
 
-        //pattern 18:pyramid with number 
+        //pattern 18:pyramid with number
 
         int n=5;
 
         for (int row=1; row<=n; row++) {
-            // for each row -> variable columns
+            //part 1
+            for (int col = 1; col <= n - row; col++) {
+                System.out.print("  ");
+            }
+            // part 2
             for (int col = 1; col <= row; col++) {
+                System.out.print(col + " ");
+            }
+            // part 3
+            int rowValue= row;
+            int decRowValue =row-1;
+            for (int col = 1; col <= row-1; col++) {
+                System.out.print(decRowValue+" ");
+            }
+            System.out.println();
+        }
+
+
+
     }
 }
