@@ -295,7 +295,15 @@ public class pattern {
             for (int col = 1; col <= n - row + 1; col++) {
                 System.out.print("* ");
             }
-            System.out.println();
+            //part 5
+            for (int col = 1; col <= 2*(row - 1); col++) {
+                System.out.print("  ");
+            }
+            //part 6
+            for (int col = 1; col <= n - row + 1; col++) {
+                System.out.print("* ");
+            }
+                System.out.println();
         }
 
 
