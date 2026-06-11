@@ -309,12 +309,26 @@ public class pattern {
 
 
             // pattern 14:numberic pattern
-            int n =5;
-        for (int row=1; row<=n; row++) {
-            // for each row -> variable columns
-            for (int col = 1; col <= row; col++) {
-                System.out.print(col + " ");    //+" " for space it is optional
-            }
+//            int n =5;
+//        for (int row=1; row<=n; row++) {
+//            // for each row -> variable columns
+//            for (int col = 1; col <= row; col++) {
+//                System.out.print(col + " ");    //+" " for space it is optional
+//            }
+//            System.out.println();
+//        }
+
+        //pattern 15:right angle with continue number
+        int n=5;
+        int count=1;
+
+        for (int row=1; row<=n; row++){
+           // for each row -> variable columns
+        for(int col=1; col<=row; col++){
+            System.out.print(count + " ");
+            count++;
+
+        }
             System.out.println();
         }
 
