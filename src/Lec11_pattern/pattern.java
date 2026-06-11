@@ -319,17 +319,30 @@ public class pattern {
 //        }
 
         //pattern 15:right angle with continue number
+//        int n=5;
+//        int count=1;
+//
+//        for (int row=1; row<=n; row++){
+//           // for each row -> variable columns
+//        for(int col=1; col<=row; col++){
+//            System.out.print(count + " ");
+//            count++;
+//
+//        }
+//            System.out.println();
+//        }
+
+
+        //pattern 16:right angle with alphabets
         int n=5;
-        int count=1;
 
-        for (int row=1; row<=n; row++){
-           // for each row -> variable columns
-        for(int col=1; col<=row; col++){
-            System.out.print(count + " ");
-            count++;
-
-        }
-            System.out.println();
+        for (int row=1; row<=n; row++) {
+            // for each row -> variable columns
+            for (int col = 1; col <= row; col++) {
+                int a=col;
+                int b=('A'-1);
+                int ans=a+b
+            }
         }
 
 
