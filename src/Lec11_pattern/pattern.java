@@ -308,6 +308,16 @@ public class pattern {
 
 
 
+            // pattern 14:numberic pattern
+            int n =5;
+        for (int row=1; row<=n; row++) {
+            // for each row -> variable columns
+            for (int col = 1; col <= row; col++) {
+                System.out.print(col + " ");    //+" " for space it is optional
+            }
+            System.out.println();
+        }
+
 
     }
 }
