@@ -349,7 +349,7 @@ public class pattern {
 //        }
 
 
-        //pattern 16:right angle with alphabets but inverted
+        //pattern 17:right angle with alphabets but inverted
 //        int n=5;
 //
 //        for (int row=1; row<=n; row++) {
@@ -366,28 +366,44 @@ public class pattern {
 //            }
 
 
-        //pattern 18:pyramid with number
+        //pattern 19:pyramid with number
 
-        int n=5;
+//        int n=5;
+//
+//        for (int row=1; row<=n; row++) {
+//            //part 1
+//            for (int col = 1; col <= n - row; col++) {
+//                System.out.print("  ");
+//            }
+//            // part 2
+//            for (int col = 1; col <= row; col++) {
+//                System.out.print(col + " ");
+//            }
+//            // part 3
+//            int rowValue= row;
+//            int decRowValue =row-1;
+//            for (int col = 1; col <= row-1; col++) {
+//                System.out.print(decRowValue+" ");
+//                decRowValue--;
+//            }
+//            System.out.println();
+//        }
 
+        //pattern 20:pyramid with same number in row
+        int n=4;
+//
         for (int row=1; row<=n; row++) {
             //part 1
             for (int col = 1; col <= n - row; col++) {
                 System.out.print("  ");
             }
             // part 2
-            for (int col = 1; col <= row; col++) {
-                System.out.print(col + " ");
-            }
-            // part 3
-            int rowValue= row;
-            int decRowValue =row-1;
-            for (int col = 1; col <= row-1; col++) {
-                System.out.print(decRowValue+" ");
-                decRowValue--;
+            for (int col = 1; col <=2*row-1; col++) {
+                System.out.print("* ");
             }
             System.out.println();
         }
+
 
 
 
