@@ -283,6 +283,9 @@ public class pattern {
             }
 
                 // part 3
+            for(int col=1; col<=row; col++) {
+                System.out.print("* ");
+            }
             System.out.println();
         }
 
