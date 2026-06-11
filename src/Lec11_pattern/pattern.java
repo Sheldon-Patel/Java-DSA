@@ -405,6 +405,24 @@ public class pattern {
 //        }
 
 
+        //pattern 21:pyramid with different alphabet
+        int n=5;
+
+        for (int row=1; row<=n; row++) {
+            //part 1
+            for (int col = 1; col <= n - row; col++) {
+                System.out.print("  ");
+            }
+            // part 2
+            for (int col = 1; col <= row; col++) {
+                System.out.print("* ");
+
+            }
+            System.out.println();
+        }
+
+
+
 
 
     }
