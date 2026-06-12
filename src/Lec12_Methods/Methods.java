@@ -24,15 +24,26 @@ public class Methods {
         return sum;
     }
 
-    static void main() {
-      int result = add(12,13 );
-        System.out.println("RESULT: "+result);
-       printMultiplication(5,10 );
-       printSum(5,10);
-        System.out.println("hi");
-        // method call
-        print2KaTable();
+    static int add(int p,int q,int r) {
+        int sum = p+q+r;
+        return sum;
+    }
 
-        System.out.println("bye");
+    static void main() {
+       int ans1= add(1,2);
+       int ans2= add(1,2,3);
+        System.out.println("ans1: "+ans1);
+        System.out.println("ans2: "+ans2);
+
+
+//      int result = add(12,13 );
+//        System.out.println("RESULT: "+result);
+//       printMultiplication(5,10 );
+//       printSum(5,10);
+//        System.out.println("hi");
+//        // method call
+//        print2KaTable();
+//
+//        System.out.println("bye");
     }
 }
