@@ -9,10 +9,23 @@ public class Methods {
 
         }
     }
+
+    static  void printSum(int x, int y) {
+        System.out.println("sum :"+ (x+y));
+    }
+
+    static void printMultiplication(int a, int b){
+       int ans= a*b;
+        System.out.println("result: "+ans);
+    }
+
     static void main() {
+       printMultiplication(5,10 );
+       printSum(5,10);
         System.out.println("hi");
         // method call
         print2KaTable();
+
         System.out.println("bye");
     }
 }
