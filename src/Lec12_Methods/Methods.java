@@ -16,10 +16,17 @@ public class Methods {
 
     static void printMultiplication(int a, int b){
        int ans= a*b;
-        System.out.println("result: "+ans);
+        System.out.println("result: " + ans);
+    }
+
+    static int add(int p,int q) {
+        int sum = p+q;
+        return sum;
     }
 
     static void main() {
+      int result = add(12,13 );
+        System.out.println("RESULT: "+result);
        printMultiplication(5,10 );
        printSum(5,10);
         System.out.println("hi");
