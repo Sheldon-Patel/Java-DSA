@@ -29,11 +29,30 @@ public class Methods {
         return sum;
     }
 
+    static void solve(int num){
+        System.out.println("inside solve " +num);
+        num = num*10;
+        System.out.println("inside solve " +num);
+
+    }
+
+    static void printMultiple(){
+       int value=20;
+       for(int i=1; i<=10; i++){
+
+       }
+    }
+
     static void main() {
-       int ans1= add(1,2);
-       int ans2= add(1,2,3);
-        System.out.println("ans1: "+ans1);
-        System.out.println("ans2: "+ans2);
+       int num =5;
+        System.out.println("inside main "+num);
+        solve(num);
+        System.out.println("inside main "+num);
+
+//       int ans1= add(1,2);
+//       int ans2= add(1,2,3);
+//        System.out.println("ans1: "+ans1);
+//        System.out.println("ans2: "+ans2);
 
 
 //      int result = add(12,13 );
