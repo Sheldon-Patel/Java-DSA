@@ -1,6 +1,9 @@
 package Lec12_Methods;
 
 public class Methods {
+    static int value=20;
+
+
     //method declaration//definition
    static void print2KaTable(){
         for (int i = 1; i <=10; i++) {
@@ -37,17 +40,18 @@ public class Methods {
     }
 
     static void printMultiple(){
-       int value=20;
+//       int value=20;
        for(int i=1; i<=10; i++){
-
+           System.out.println(20*i);
        }
     }
 
     static void main() {
-       int num =5;
-        System.out.println("inside main "+num);
-        solve(num);
-        System.out.println("inside main "+num);
+        System.out.println( value);
+//       int num =5;
+//        System.out.println("inside main "+num);
+//        solve(num);
+//        System.out.println("inside main "+num);
 
 //       int ans1= add(1,2);
 //       int ans2= add(1,2,3);
