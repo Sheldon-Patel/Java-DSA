@@ -4,20 +4,32 @@ public class Arrays {
 
     static void main() {
 
-    int arr[]=new int[5];
-    Scanner sc = new Scanner(System.in);
+    int arr[]={12,14,1245};
+
     int n=arr.length;
-    // input
-    for(int i=0; i<=n-1; i++){
-        System.out.println("provide input of index "+i);
-        arr[i]=sc.nextInt();
+
+    for (int index=0;index<=n-1; index++){
+        System.out.println(arr[index]);
     }
 
-    // print
-        System.out.println("your array contains: ");
-         for(int val:arr){
-             System.out.println(val);
-         }
+
+
+
+
+//    int arr[]=new int[5];
+//    Scanner sc = new Scanner(System.in);
+//    int n=arr.length;
+//    // input
+//    for(int i=0; i<=n-1; i++){
+//        System.out.println("provide input of index "+i);
+//        arr[i]=sc.nextInt();
+//    }
+//
+//    // print
+//        System.out.println("your array contains: ");
+//         for(int val:arr){
+//             System.out.println(val);
+//         }
 
 
 //    // declaration
