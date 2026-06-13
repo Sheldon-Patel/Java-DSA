@@ -13,8 +13,11 @@ public class Arrays {
         int brr[] = {10,20,30};
 
         int n=brr.length;
-        for(int index=0; index<=n-1; index++){
-            System.out.println(brr[index]);
+//        for(int index=0; index<=n-1; index++){
+//            System.out.println(brr[index]);
+//        }
+        for (int val:brr){
+            System.out.println(val);
         }
 
         System.out.println("value at 0 index: "+brr[0]);
