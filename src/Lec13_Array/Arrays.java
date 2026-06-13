@@ -14,6 +14,7 @@ public class Arrays {
     }
 
     // print
+        System.out.println("your array contains: ");
          for(int val:arr){
              System.out.println(val);
          }
