@@ -9,7 +9,8 @@ public class Arrays {
     int minValue = arr[0];
 
     for (int i=0; i<=n-1; i++){
-        if(arr[i]< minValue ){
+        if(arr[i]< minValue ){    // agar arr ke value is small tha minval replace
+            // min value update
             minValue = arr[i];
         }
         }
@@ -31,7 +32,7 @@ public class Arrays {
 //
 //       // compare mavValue with every element in array
 //    for(int i=0; i<=n-1; i++){
-//        if(arr[i]>maxValue){
+//        if(arr[i]>maxValue){      // agar arr ke value is greater tha maxval the replace
 //            //update maxValue
 //              maxValue = arr[i];
 //        }
