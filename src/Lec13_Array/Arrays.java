@@ -4,13 +4,36 @@ public class Arrays {
 
     static void main() {
 
-    int arr[]={12,14,1245};
+//        int  arr[]={2,3,10,20};
+//        int ans =1;
+//        int n=arr.length;
+//
+//        for (int i =0;i<arr.length;i++){
+//            int val=arr[i]; // jo index par hai usko val ma dalo
+//            ans = ans*val;
+//
+//        }
+//        System.out.println(ans );
 
-    int n=arr.length;
 
-    for (int index=0;index<=n-1; index++){
-        System.out.println(arr[index]);
-    }
+//    int arr[]= {10,20,30,40,50};
+//    int sum=0;
+//    int n =arr.length;
+//
+//    for (int i=0;i<=n-1;i++){
+//        int value = arr[i];
+//        sum = sum+value;
+//    }
+//    // sum is ready to print when loop finish
+//        System.out.println(sum);
+
+//    int arr[]={12,14,1245};
+//
+//    int n=arr.length;
+//
+//    for (int index=0;index<=n-1; index++){
+//        System.out.println(arr[index]);
+//    }
 
 
 
