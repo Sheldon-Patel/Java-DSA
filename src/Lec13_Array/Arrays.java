@@ -5,18 +5,39 @@ public class Arrays {
     static void main() {
 
     int arr[]={3,2,-5,21,10};
-     int n = arr.length;
-      int maxValue = arr[0];
+    int n = arr.length;
+    int minValue = arr[0];
 
-       // compare mavValue with every element in array
-    for(int i=0; i<=n-1; i++){
-        if(arr[i]>maxValue){
-            //update maxValue
-              maxValue = arr[i];
+    for (int i=0; i<=n-1; i++){
+        if(arr[i]< minValue ){
+            minValue = arr[i];
         }
-    }
+        }
+        System.out.println(minValue);
 
-        System.out.println(maxValue);
+
+
+
+
+
+
+
+
+
+//    // max value find out
+//    int arr[]={3,2,-5,21,10};
+//     int n = arr.length;
+//      int maxValue = arr[0];
+//
+//       // compare mavValue with every element in array
+//    for(int i=0; i<=n-1; i++){
+//        if(arr[i]>maxValue){
+//            //update maxValue
+//              maxValue = arr[i];
+//        }
+//    }
+//
+//        System.out.println(maxValue);
 
 
 
