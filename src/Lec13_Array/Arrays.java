@@ -1,8 +1,9 @@
 
+// 1-D array
 public class Arrays {
 }
 
-    static void main() {
+static void main() {
 
     int arr[]={3,2,-5,21,10};
     int n = arr.length;
@@ -13,8 +14,8 @@ public class Arrays {
             // min value update
             minValue = arr[i];
         }
-        }
-        System.out.println(minValue);
+    }
+    System.out.println(minValue);
 
 
 
