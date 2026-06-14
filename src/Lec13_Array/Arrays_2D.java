@@ -39,19 +39,27 @@ public class Arrays_2D {
                 {4}
         };
 
-//        System.out.println(brr[3][1 ]);
-        int rowLength = brr.length;        // for row length of 2d array
-//        int colLength = brr[0].length;     // for col length of 2d array ,
-        // each row have same number of col so assume any one row length to get col length
+////        System.out.println(brr[3][1 ]);
+//        int rowLength = brr.length;        // for row length of 2d array
+////        int colLength = brr[0].length;     // for col length of 2d array ,
+//        // each row have same number of col so assume any one row length to get col length
+//
+//        for(int rowIndex=0; rowIndex<= rowLength-1; rowIndex++){
+//            // jaisa hi main kisi new row ma aaya
+//            // same point par maine uss row ka colLength find kar liya
+//            //current row -> brr[i] //because we dont know the index it might be anything
+//            // isma kitna columns hai -> brr[rowIndex].length;
+//            int colLength = brr[rowIndex].length;
+//            for(int colIndex = 0; colIndex<=colLength-1; colIndex++){
+//                System.out.print (brr[rowIndex][colIndex]+" ");
+//            }
+//            System.out.println();
+//        }
 
-        for(int rowIndex=0; rowIndex<= rowLength-1; rowIndex++){
-            // jaisa hi main kisi new row ma aaya
-            // same point par maine uss row ka colLength find kar liya
-            //current row -> brr[i] //because we dont know the index it might be anything
-            // isma kitna columns hai -> brr[rowIndex].length;
-            int colLength = brr[rowIndex].length;
-            for(int colIndex = 0; colIndex<=colLength-1; colIndex++){
-                System.out.print (brr[rowIndex][colIndex]+" ");
+        // traversal 2D array   // this is a short version of the above
+        for(int rowIndex=0; rowIndex<= brr.length-1;rowIndex++){
+            for(int colIndex=0;colIndex<= brr[rowIndex].length-1 ; colIndex++ ){
+                System.out.print(brr[rowIndex][colIndex]+" ");
             }
             System.out.println();
         }
