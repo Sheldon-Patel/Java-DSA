@@ -9,18 +9,36 @@ public class Arrays_2D {
 // length tell the number of element in an array
 
 
-        // sum of element in 2d array
+        // multiply each element
         int arr[][]={{1,2,3},{1,2,3}};
-        int sum =0;
+        int ans = 1;
 
-        for (int i=0; i<= arr.length-1; i++){
-            for (int j=0; j<= arr[i].length-1; j++){
+        for (int i=0; i<arr.length; i++){
+            for (int j=0; j<arr[i].length; j++){
                 int value= arr[i][j];
-                sum = sum +value;
-//                sum = sum+arr[i][j];     // my method gives right answer
+                ans = ans*value;
             }
         }
-        System.out.println(sum);
+        System.out.println(ans);
+
+
+
+
+
+
+
+//        // sum of element in 2d array
+//        int arr[][]={{1,2,3},{1,2,3}};
+//        int sum =0;
+//
+//        for (int i=0; i<= arr.length-1; i++){
+//            for (int j=0; j<= arr[i].length-1; j++){
+//                int value= arr[i][j];
+//                sum = sum +value;
+////                sum = sum+arr[i][j];     // my method gives right answer
+//            }
+//        }
+//        System.out.println(sum);
 
 
 //        int arr[][];
