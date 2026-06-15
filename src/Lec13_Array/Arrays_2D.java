@@ -8,20 +8,36 @@ public class Arrays_2D {
     static void main() {
 // length tell the number of element in an array
 
-
-        // multiply each element
-        int arr[][]={{1,2,3},{1,2,3}};
-        int ans = 1;
+        // max value in the array
+        int arr[][] = {{1, 2, 3}, {21, 20, 19}};
+        int maxValue = arr[0][0];
 
         for (int i=0; i<arr.length; i++){
             for (int j=0; j<arr[i].length; j++){
-                int value= arr[i][j];
-                ans = ans*value;
+                if(arr[i][j]>maxValue){
+                    maxValue=arr[i][j];
+                }
             }
         }
-        System.out.println(ans);
+        System.out.println(maxValue);
 
 
+
+
+
+
+
+//        // multiply each element
+//        int arr[][]={{1,2,3},{1,2,3}};
+//        int ans = 1;
+//
+//        for (int i=0; i<arr.length; i++){
+//            for (int j=0; j<arr[i].length; j++){
+//                int value= arr[i][j];
+//                ans = ans*value;
+//            }
+//        }
+//        System.out.println(ans);
 
 
 
