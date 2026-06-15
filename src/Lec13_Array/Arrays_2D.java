@@ -1,16 +1,54 @@
 package Lec13_Array;
 
 import javax.print.attribute.standard.OrientationRequested;
+import java.util.Scanner;
 
 public class Arrays_2D {
 
-    static void main(){
+    static void main() {
+// length tell the number of element in an array
 
-    // decalartion
-    int[][] arr;
-    // allocation
-    arr =new int[3][4];
-    // init
+
+        // sum of element in 2d array
+        int arr[][]={{1,2,3},{1,2,3}};
+        int sum =0;
+
+        for (int i=0; i<= arr.length-1; i++){
+            for (int j=0; j<= arr[i].length-1; j++){
+                int value= arr[i][j];
+                sum = sum+value;
+            }
+        }
+        System.out.println(sum);
+
+
+//        int arr[][];
+//        arr = new int[3][4];
+//                or
+//        int arr[][] = new int[3][4];
+//        Scanner sc = new Scanner(System.in);
+//        // input
+//        for (int i=0;i<=arr.length-1;i++){
+//            for (int j=0; j<=arr[i].length-1; j++){
+//                System.out.println("provide value for row="+i+"and column="+j);
+//                arr[i][j] = sc.nextInt();
+//            }
+//        }
+//        // print
+//        for(int rowIndex=0; rowIndex<= arr.length-1;rowIndex++){
+//            for(int colIndex=0;colIndex<= arr[rowIndex].length-1 ; colIndex++ ){
+//                System.out.print(arr[rowIndex][colIndex]+" ");
+//            }
+//            System.out.println();
+//        }
+
+
+
+        // decalartion
+//    int[][] arr;
+        // allocation
+//    arr =new int[3][4];
+        // init
 //    int[][] brr = {
 //                    {1, 2},
 //                    {2, 3},
@@ -18,7 +56,7 @@ public class Arrays_2D {
 //                    {4, 5}
 //                    };
 //
-////        System.out.println(brr[3][1 ]);
+////        System.out.println(brr[3][1]);
 //        int rowLength = brr.length;        // for row length of 2d array
 //        int colLength = brr[0].length;     // for col length of 2d array ,
 //         // each row have same number of col so assume any one row length to get col length
@@ -31,7 +69,6 @@ public class Arrays_2D {
 //        }
 
 
-
 //        int[][] brr = {     //also called jagged array because have different length
 //                {1, 2},
 //                {2, 3,4,5},
@@ -39,7 +76,7 @@ public class Arrays_2D {
 //                {4}
 //        };
 
-////        System.out.println(brr[3][1 ]);
+////        System.out.println(brr[3][1]);
 //        int rowLength = brr.length;        // for row length of 2d array
 ////        int colLength = brr[0].length;     // for col length of 2d array ,
 //        // each row have same number of col so assume any one row length to get col length
@@ -65,7 +102,7 @@ public class Arrays_2D {
 //        }
 
 
-}
+    }
 }
 
 
