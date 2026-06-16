@@ -3,7 +3,29 @@ package Lec14_StringBasics;
 import java.util.Scanner;
 
 public class stringBasics {
+
+    // practice
+    //1.each char of string
+    static void printString(String str) {
+        int n =str.length();
+        for (int i=0; i<n; i++){
+             char ch = str.charAt(i);
+            System.out.println(ch);
+        }
+
+    }
+
     static void main() {
+        String str = "Love";
+        printString(str );
+
+
+
+
+
+
+
+
         // common methods
         //isEmpty() -> length=0
         //isBlank() ->empty or sirf spaces hai string
@@ -62,9 +84,9 @@ public class stringBasics {
 //        }
 
         //replace method
-        String name = "babbar";
-        name = name .replace('b','l');
-        System.out.println(name);
+//        String name = "babbar";
+//        name = name .replace('b','l');
+//        System.out.println(name);
 
 
 
