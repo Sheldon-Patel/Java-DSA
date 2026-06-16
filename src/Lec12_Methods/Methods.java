@@ -14,7 +14,8 @@ public class Methods {
     }
 
     static  void printSum(int x, int y) {
-        System.out.println("sum :"+ (x+y));
+
+       System.out.println("sum :"+ (x+y));
     }
 
     static void printMultiplication(int a, int b){
