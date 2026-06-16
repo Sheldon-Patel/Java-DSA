@@ -19,10 +19,17 @@ public class stringBasics {
 //        System.out.println(name.length());
 
         //toUpperCase and toLowerCase
-        String name ="love";
-        System.out.println(name.toUpperCase());
-        String str = "LOVE";
-        System.out.println(str.toLowerCase());
+//        String name ="love";
+//        System.out.println(name.toUpperCase());
+//        String str = "LOVE";
+//        System.out.println(str.toLowerCase());
+
+        //subString
+        String str ="My Name is Love Babbar";
+        //0->m
+        //1->y
+        //2->space and so on
+        System.out.println(str.substring(3,6));
 
 
 //        String str = "Babbar";
