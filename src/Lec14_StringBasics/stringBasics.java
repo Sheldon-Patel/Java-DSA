@@ -5,12 +5,32 @@ import java.util.Scanner;
 public class stringBasics {
     static void main() {
         // common methods
-        String str = "Babbar";
-        System.out.println(str.length());
-        System.out.println(str.charAt(0));
-        String name =  "BABBAR";
-        System.out.println(str.equals(name));
-        System.out.println(str.equalsIgnoreCase(name));
+        //isEmpty() -> length=0
+        //isBlank() ->empty or sirf spaces hai string
+//        String str ="  ";
+//        System.out.println(str.length() );
+//        System.out.println(str.isEmpty() );
+//        System.out.println(str.isBlank());
+//        // trim -> remove space start and end only
+//        String name = "  Love     ";
+//        System.out.println(name.length());
+//        name = name.trim();
+//        //just name.trim() was returning string si it was giving 11 we need to store somewhere to get answer
+//        System.out.println(name.length());
+
+        //toUpperCase and toLowerCase
+        String name ="love";
+        System.out.println(name.toUpperCase());
+        String str = "LOVE";
+        System.out.println(str.toLowerCase());
+
+
+//        String str = "Babbar";
+//        System.out.println(str.length());
+//        System.out.println(str.charAt(0));
+//        String name =  "BABBAR";
+//        System.out.println(str.equals(name));
+//        System.out.println(str.equalsIgnoreCase(name));
 
 
 
