@@ -47,12 +47,21 @@ public class stringBasics {
 //        System.out.println(name.endsWith("Babbar"));   //should give false because in string babbar and in sufix Babbar
 
         //toCharArray()
-        String name = "Babbar";
-        char[] crr = name.toCharArray();
-        //print char array
-        for (char ch:crr){
-            System.out.println("value of char: " +ch);
+//        String name = "Babbar";
+//        char[] crr = name.toCharArray();
+//        //print char array
+//        for (char ch:crr){
+//            System.out.println("value of char: " +ch);
+//        }
+
+        // split method -> output  ->string array
+        String input = "My,Name,is,Love,Babbar";
+        String[] words = input.split(",");//gives return string ka array value so store
+        for (String str: words ){
+            System.out.println(str);
         }
+
+
 
 //        String str = "Babbar";
 //        System.out.println(str.length());
