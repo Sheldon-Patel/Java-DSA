@@ -4,16 +4,31 @@ import java.util.Scanner;
 
 public class stringBasics {
     static void main() {
-        // string input
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Provide the string content: ");
-        String str = sc.nextLine();
-        System.out.println("Value of nextLine: "+ str);
+        // common methods
+        String str = "Babbar";
+        System.out.println(str.length());
+        System.out.println(str.charAt(0));
+        String name =  "BABBAR";
+        System.out.println(str.equals(name));
+        System.out.println(str.equalsIgnoreCase(name));
 
-        System.out.println("Provide the string content: ");
-        String str2 = sc.next();
-        System.out.println("Value of next: "+ str2);
 
+
+
+
+
+
+
+//        // string input
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Provide the string content: ");
+//        String str = sc.nextLine();
+//        System.out.println("Value of nextLine: "+ str);
+//
+//        System.out.println("Provide the string content: ");
+//        String str2 = sc.next();
+//        System.out.println("Value of next: "+ str2);
+//
 
 
 //        String name1 = "love";
