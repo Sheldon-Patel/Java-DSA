@@ -15,9 +15,19 @@ public class stringBasics {
 
     }
 
+    // practice
+    //2.length of string without length()
+    static int getLengthOfString (String str){
+       char[] arr = str.toCharArray();
+       int len =arr.length;
+       return len;
+    }
+
     static void main() {
         String str = "Love";
         printString(str );
+
+        System.out.println(getLengthOfString(str));
 
 
 
