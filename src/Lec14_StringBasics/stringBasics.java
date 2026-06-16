@@ -55,11 +55,16 @@ public class stringBasics {
 //        }
 
         // split method -> output  ->string array
-        String input = "My,Name,is,Love,Babbar";
-        String[] words = input.split(",");//gives return string ka array value so store
-        for (String str: words ){
-            System.out.println(str);
-        }
+//        String input = "My,Name,is,Love,Babbar";
+//        String[] words = input.split(",");//gives return string ka array value so store
+//        for (String str: words ){
+//            System.out.println(str);
+//        }
+
+        //replace method
+        String name = "babbar";
+        name = name .replace('b','l');
+        System.out.println(name);
 
 
 
