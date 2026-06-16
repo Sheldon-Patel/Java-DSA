@@ -29,6 +29,8 @@ public class stringBasics {
         //0->m
         //1->y
         //2->space and so on
+        //beginIndex 3-> include
+        //endIndex 6-> exclusive means not include
         System.out.println(str.substring(3,6));
 
 
