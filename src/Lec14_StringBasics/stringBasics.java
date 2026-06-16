@@ -25,16 +25,25 @@ public class stringBasics {
 //        System.out.println(str.toLowerCase());
 
         //subString
-        String str ="My Name is Love Babbar";
+//        String str ="My Name is Love Babbar";
         //0->m
         //1->y
         //2->space and so on
         //beginIndex 3-> include
         //endIndex 6-> exclusive means not include
-        System.out.println(str.substring(3,6));
+//        System.out.println(str.substring(3,6));
         // contains method
-        System.out.println(str.contains("Love "));
+//        System.out.println(str.contains("Love "));
 
+        // valueOf method
+//        int num = 5123;
+//        String str = String.valueOf(num);
+//        System.out.println(num+1 );    //gives 5124
+//        System.out.println(str+1);     //gives 51231 because 5123 is a string so it concat
+
+        // startsWith endsWith
+        String name = "Rana Love Babbar";
+        System.out.println(name.startsWith("Rana L"));
 
 //        String str = "Babbar";
 //        System.out.println(str.length());
