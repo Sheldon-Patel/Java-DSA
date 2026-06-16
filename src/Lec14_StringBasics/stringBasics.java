@@ -42,9 +42,17 @@ public class stringBasics {
 //        System.out.println(str+1);     //gives 51231 because 5123 is a string so it concat
 
         // startsWith endsWith
-        String name = "Rana Love babbar";
-        System.out.println(name.startsWith("Rana L"));
-        System.out.println(name.endsWith("Babbar"));   //should give false because in string babbar and in sufix Babbar
+//        String name = "Rana Love babbar";
+//        System.out.println(name.startsWith("Rana L"));
+//        System.out.println(name.endsWith("Babbar"));   //should give false because in string babbar and in sufix Babbar
+
+        //toCharArray()
+        String name = "Babbar";
+        char[] crr = name.toCharArray();
+        //print char array
+        for (char ch:crr){
+            System.out.println("value of char: " +ch);
+        }
 
 //        String str = "Babbar";
 //        System.out.println(str.length());
