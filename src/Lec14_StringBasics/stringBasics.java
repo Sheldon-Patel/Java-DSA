@@ -5,5 +5,7 @@ public class stringBasics {
        String firstName = "Love";
        String lastName = new String("babbar");
         System.out.println(firstName+" "+lastName );
+        System.out.println(firstName.length());
+        System.out.println(firstName.charAt(0));
     }
 }
