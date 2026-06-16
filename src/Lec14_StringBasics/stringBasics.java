@@ -32,6 +32,8 @@ public class stringBasics {
         //beginIndex 3-> include
         //endIndex 6-> exclusive means not include
         System.out.println(str.substring(3,6));
+        // contains method
+        System.out.println(str.contains("Love "));
 
 
 //        String str = "Babbar";
