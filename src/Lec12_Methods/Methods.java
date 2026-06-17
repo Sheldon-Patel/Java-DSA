@@ -1,5 +1,9 @@
 package Lec12_Methods;
 
+// for return always ask do i want a value back
+//return -> how many digits,is it even, which is biggest number
+//not return(void) -> print digits, print a table,print a greeting
+
 public class Methods {
     static int value=20;
 
