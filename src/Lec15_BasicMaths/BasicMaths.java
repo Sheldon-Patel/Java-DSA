@@ -33,6 +33,20 @@ public class BasicMaths {
         return count;
     }
 
+    //  sum of digits in number
+    static int sunDigits(int num1){
+        //agar mere num=0 ,tho main ruk jaunga
+        //agar num!=0 tho main processing krta hu
+        int sum =0;
+        while(num1!=0){
+            int digit = num1 % 10;
+            sum = sum + digit;
+            // remove last digit
+            num1 = num1/10;
+        }
+        return sum;
+    }
+
 
     static void main() {
         int num = 53217;
@@ -40,5 +54,8 @@ public class BasicMaths {
 
          int ans = countDigits(num);
         System.out.println(ans);
+
+        int sum = sunDigits(num);
+        System.out.println(sum);
     }
 }
