@@ -111,10 +111,18 @@ public class BasicMaths {
     }
 
     //lcm    lcm*hcf = a*b    lcm= a*b/hcf or gcd
-    static
+    static int getLCM(int a,int b){
+        int gcd = getGCD(a,b);
+        //gcd(18,12) = 6
+        int prod = a*b;
+        //prod(a,b) -> 216
+        int lcm = prod/gcd;
+        //216/6
+        return lcm;
+    }
 
     static void main() {
-
+        System.out.println(getLCM(18,12));
         System.out.println(getGCD(18,12));
 
 //        int num = 12;
