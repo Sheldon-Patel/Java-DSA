@@ -112,7 +112,7 @@ public class BasicMaths {
 
     static void main() {
 
-        System.out.println(getGCD(12,18));
+        System.out.println(getGCD(18,12));
 
 //        int num = 12;
 //        System.out.println(isPrimeOrNot(num));
