@@ -47,15 +47,36 @@ public class BasicMaths {
         return sum;
     }
 
+    //reverse a number
+    static int reverseNum(int num){
+        int revNum =0;
+        //ans = ans*10 + currentDigit;
+        while(num != 0){
+             int digit = num % 10;
+             // reverse number calculates per formula
+            revNum = revNum*10 + digit;
+            num = num/10;
+
+        }
+            return revNum;
+    }
+
 
     static void main() {
-        int num = 53217;
-//        printDigits(num);
 
-         int ans = countDigits(num);
-        System.out.println(ans);
+        int num =1234;
+        int revNum = reverseNum(num);
+        System.out.println(revNum);
 
-        int sum = sunDigits(num);
-        System.out.println(sum);
+
+
+//        int num = 53217;
+////        printDigits(num);
+//
+//         int ans = countDigits(num);
+//        System.out.println(ans);
+//
+//        int sum = sunDigits(num);
+//        System.out.println(sum);
     }
 }
