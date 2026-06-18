@@ -110,6 +110,9 @@ public class BasicMaths {
         return ans;
     }
 
+    //lcm    lcm*hcf = a*b    lcm= a*b/hcf or gcd
+    static
+
     static void main() {
 
         System.out.println(getGCD(18,12));
