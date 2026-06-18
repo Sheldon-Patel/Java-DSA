@@ -98,11 +98,24 @@ public class BasicMaths {
 
 
     //gcd or hcf
+    static int getGCD(int a,int b){
+        //gcd(a,b) = gcd(b,a%b)
+        while(b != 0){
+            int oldValueOfb = b;
+            b = a%b;
+            a = oldValueOfb ;
+        }
+        // jab mera b 0 hoga tab a ki place par gcd hoga
+            int ans = a;
+        return ans;
+    }
 
     static void main() {
 
-        int num = 12;
-        System.out.println(isPrimeOrNot(num));
+        System.out.println(getGCD(12,18));
+
+//        int num = 12;
+//        System.out.println(isPrimeOrNot(num));
 
 //        boolean ans = isPalindrome(1234);
 //        System.out.println(ans );
