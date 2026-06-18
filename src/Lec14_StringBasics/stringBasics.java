@@ -64,6 +64,7 @@ public class stringBasics {
             char ch2 = reverse.charAt(i);
             if (ch1 != ch2){
                 return false;
+                // can also do == and the return true
 
             }
         }

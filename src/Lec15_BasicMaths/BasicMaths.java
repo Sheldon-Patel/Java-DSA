@@ -62,7 +62,30 @@ public class BasicMaths {
     }
 
 
+    //palindrome
+    static boolean isPalindrome(int num){
+         int originalNumber = num;
+         int reverseNumber = reverseNum(num);
+          if(originalNumber == reverseNumber){
+              System.out.println("palindrome");
+              return true;
+          }
+          else{
+              System.out.println("not palindrome");
+              return false;
+          }
+    }
+
+
+    //prime number
+    static boolean isPrimeOrNot(int num){
+
+    }
+
     static void main() {
+
+        boolean ans = isPalindrome(1234);
+        System.out.println(ans );
 
         int num =1234;
         int revNum = reverseNum(num);
