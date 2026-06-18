@@ -5,6 +5,8 @@ package Lec15_BasicMaths;
 //not return(void) -> print digits, print a table,print a greeting
 
 
+import java.util.function.DoubleToIntFunction;
+
 public class BasicMaths {
 // print digits in a number
     static void printDigits(int num1){
@@ -79,17 +81,35 @@ public class BasicMaths {
 
     //prime number
     static boolean isPrimeOrNot(int num){
+                for (int i=2; i*i<=num; i++){   //optimize
+
+//        for (int i=2;  i<=num-1; i++){        //brute
+            if (num % i == 0){
+                return false;
+            }
+        }
+        //yaha thabi pocha pagge, jab loop sa bhar nikloge
+        // or loop sa bhar tabhi nikloge jab
+        //reminder ma zero naa aaya
+        //aur kabi reminder 0 nahi aaya its a prime number
+        return true;
 
     }
 
+
+    //gcd or hcf
+
     static void main() {
 
-        boolean ans = isPalindrome(1234);
-        System.out.println(ans );
+        int num = 12;
+        System.out.println(isPrimeOrNot(num));
 
-        int num =1234;
-        int revNum = reverseNum(num);
-        System.out.println(revNum);
+//        boolean ans = isPalindrome(1234);
+//        System.out.println(ans );
+//
+//        int num =1234;
+//        int revNum = reverseNum(num);
+//        System.out.println(revNum);
 
 
 
