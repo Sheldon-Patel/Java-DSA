@@ -121,7 +121,55 @@ public class BasicMaths {
         return lcm;
     }
 
+    //armstrong number
+    static boolean isArmstrong(int num){
+        int sum = 0;
+        int originalNum = num;
+
+        while(num != 0) {
+            int digit = num % 10;
+            int cubeOfDigit = digit * digit * digit;
+            sum = sum + cubeOfDigit;
+            // remove digit from num
+            num = num / 10;
+        }
+        if (sum == originalNum){
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
+
+    // perfect number
+    static boolean checkPerfectNumber(int num){
+        int sum =1;
+
+        for (int i = 2; i*i <= num; i++){
+            if(num % i ==0){
+                // agar i ko perfectly divide kar liya hai
+                //toh ab factor pair kaisa banaga
+                //1st factor->i
+                //2nd factor ->num/i
+                int firstFactor = i;
+                int secondFactor = num/i;
+                sum = sum + firstFactor + secondFactor;
+                }
+        }
+        if (sum == num){
+            return true;
+        }
+        else {
+            return false;
+        }
+    }
+
     static void main() {
+
+        System.out.println(checkPerfectNumber(6));
+
+        System.out.println(isArmstrong(153));
+
         System.out.println(getLCM(18,12));
         System.out.println(getGCD(18,12));
 
