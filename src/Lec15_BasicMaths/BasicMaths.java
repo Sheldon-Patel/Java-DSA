@@ -164,6 +164,9 @@ public class BasicMaths {
         }
     }
 
+    //print prime number 1 to n
+
+
     static void main() {
 
         System.out.println(checkPerfectNumber(6));
