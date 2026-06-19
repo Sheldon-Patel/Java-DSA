@@ -170,7 +170,7 @@ public class BasicMaths {
 
 //        System.out.println(isArmstrong(153));
 
-        System.out.println(getLCM(18,12));
+//        System.out.println(getLCM(18,12));
         System.out.println(getGCD(18,12));
 
 //        int num = 12;
