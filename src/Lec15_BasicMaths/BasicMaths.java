@@ -165,7 +165,17 @@ public class BasicMaths {
     }
 
     //print prime number 1 to n
+    static void printAllPrime(int n){
 
+        //check whether a number is prime or not
+        int num = 5;
+        for(int i =2; i*i<=num; i++){
+            if (num%i == 0){
+                return false;
+            }
+        }
+        return true;
+    }
 
     static void main() {
 
