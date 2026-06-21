@@ -15,6 +15,7 @@ public class Student {
     //parametrized constructor
     public Student(int id, int age, String name, int nos){
         System.out.println("Student parametrized constructor called");
+        this.id= id;
     }
 
     //method or behaviours
