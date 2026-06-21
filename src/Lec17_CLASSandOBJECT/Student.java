@@ -16,6 +16,22 @@ public class Student {
     public Student(int id, int age, String name, int nos){
         System.out.println("Student parametrized constructor called");
         this.id= id;
+        this.age= age;
+        this.name= name;
+        this.nos= nos;
+
+
+    }
+
+    // copy constructor
+    public Student(Student srcobj){ //srcobj -> A
+        System.out.println("Student copy constructor called");
+        this.id= srcobj.id;
+        this.age= srcobj.age;
+        this.name= srcobj.name;
+        this.nos= srcobj.nos;
+
+
     }
 
     //method or behaviours

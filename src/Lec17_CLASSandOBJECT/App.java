@@ -19,14 +19,24 @@ public class App {
 
         //parametrized contructor
         Student A = new Student(1,13,"love",3);
-        System.out.println(A.name);
-        System.out.println(A.age);
-        System.out.println(A.id);
-        System.out.println(A.nos);
+//        System.out.println(A.name);
+//        System.out.println(A.age);
+//        System.out.println(A.id);
+//        System.out.println(A.nos);
+//
+//        A.bunk();
+//        A.sleep();
+//        A.study();
 
-        A.bunk();
-        A.sleep();
-        A.study();
+        //copy constructor
+        Student B = new Student(A);
+        System.out.println(B.name);
+        System.out.println(B.age);
+        System.out.println(B.id);
+        System.out.println(B.nos);
+
+        B.study();
+
 
     }
 }
