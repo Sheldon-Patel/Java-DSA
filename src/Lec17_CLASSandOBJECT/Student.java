@@ -8,8 +8,13 @@ public class Student {
     public int nos;         //number of subject ->nos
 
     //default constructor// attribute. ->garbage
-    public student(){
-        System.out.println(x:"Student Default constructor called");
+    public Student(){
+        System.out.println("Student Default constructor called");
+    }
+
+    //parametrized constructor
+    public Student(int id, int age, String name, int nos){
+        System.out.println("Student parametrized constructor called");
     }
 
     //method or behaviours
