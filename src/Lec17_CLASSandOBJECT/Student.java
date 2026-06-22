@@ -5,7 +5,10 @@ public class Student {
     public int id;
     public int age;
     public String name;
-    public int nos;         //number of subject ->nos
+    public int nos;     //number of subject ->nos
+    // encapsulation  lec_18
+    private String gf;
+
 
     //default constructor// attribute. ->garbage
     public Student(){
@@ -13,7 +16,7 @@ public class Student {
     }
 
     //parametrized constructor
-    public Student(int id, int age, String name, int nos){
+    public Student(int id, int age, String name, int nos,String gf){
         System.out.println("Student parametrized constructor called");
         this.id= id;
         this.age= age;
