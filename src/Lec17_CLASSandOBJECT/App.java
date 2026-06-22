@@ -55,11 +55,23 @@ public class App {
         // perfect encapsulation
         Student A = new Student(1,13,"love",3,"tina");
 //        System.out.println(A.name);  // it will not work because of private so made a public method to acces it
-        System.out.println(A.getName());
+//        System.out.println(A.getName());
+//        A.age=57;  //will give error because we needed to access with getter setter
 
-        A.bunk();
-        A.sleep();
-        A.study();
+        System.out.println(A.getAge());
+        A.setAge(67);
+
+        System.out.println(A.getAge());
+
+
+
+
+
+
+
+//        A.bunk();
+//        A.sleep();
+//        A.study();
 
 
 

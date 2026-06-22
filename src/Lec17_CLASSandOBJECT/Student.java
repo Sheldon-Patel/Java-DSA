@@ -22,6 +22,18 @@ public class Student {
         return this.name;
     }
 
+    public int getAge(){
+        return this.age;
+    }
+
+    public void setAge(int a) {
+        //extra layer of authentication
+        if (age < 100) {
+            this.age = a;
+            return;
+        }
+    }
+
 
 
     //default constructor// attribute. ->garbage
