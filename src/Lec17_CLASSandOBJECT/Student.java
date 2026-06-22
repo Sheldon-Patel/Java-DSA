@@ -2,12 +2,26 @@ package Lec17_CLASSandOBJECT;
 
 public class Student {
      // attribute
-    public int id;
-    public int age;
-    public String name;
-    public int nos;     //number of subject ->nos
-    // encapsulation  lec_18
+//    public int id;
+//    public int age;
+//    public String name;
+//    public int nos;     //number of subject ->nos
+
+
+//    // encapsulation  lec_18
+//    private String gf;
+
+    //perfect encapsulation
+    private int id;
+    private int age;
+    private String name;
+    private int nos;     //number of subject ->nos
     private String gf;
+
+    public String getName(){
+        return this.name;
+    }
+
 
 
     //default constructor// attribute. ->garbage
@@ -22,6 +36,7 @@ public class Student {
         this.age= age;
         this.name= name;
         this.nos= nos;
+        this.gf = gf;
 
 
     }
@@ -39,6 +54,7 @@ public class Student {
 
     //method or behaviours
     public void study(){
+
         System.out.println(name + "studying");
     }
 
@@ -48,5 +64,11 @@ public class Student {
 
     public void bunk(){
         System.out.println(name + "bunking");
+    }
+
+    //encapsulation
+    private void gfChatting(){
+        System.out.println(name + "gfchatting");
+
     }
 }
