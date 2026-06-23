@@ -13,5 +13,13 @@ public class Vehicle {
         this.noOfTyres = noOfTyres;
     }
 
+    void startEngine(){
+        System.out.printf("engine is starting f %s %s\n",name , model);
+    }
+
+    void stopEngine(){
+        System.out.printf("engine is stoping f %s %s\n",name , model);
+
+    }
 
 }
