@@ -7,6 +7,12 @@ public class Vehicle {
 
     public int noOfTyres;
 
+    Vehicle(){
+        this.name = "";
+        this.model = "";
+        this.noOfTyres = -1;
+    }
+
     Vehicle(String name, String model, int noOfTyres ){
         this.name = name;
         this.model = model;
