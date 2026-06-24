@@ -20,11 +20,11 @@ public class Vehicle {
     }
 
     void startEngine(){
-        System.out.printf("engine is starting f %s %s\n",name , model);
+        System.out.printf("engine is starting %s %s\n",name , model);
     }
 
     void stopEngine(){
-        System.out.printf("engine is stoping f %s %s\n",name , model);
+        System.out.printf("engine is stoping %s %s\n",name , model);
 
     }
 
