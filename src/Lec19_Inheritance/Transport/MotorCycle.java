@@ -7,6 +7,7 @@ public class MotorCycle extends Vehicle{
 
     MotorCycle(String name, String model, int noOfTyres, String handleBarStyle, String suspensionType){
         super(name,model,noOfTyres);
-        this.
+        this.handleBarStyle = handleBarStyle;
+        this.suspensionType = suspensionType;
     }
 }
