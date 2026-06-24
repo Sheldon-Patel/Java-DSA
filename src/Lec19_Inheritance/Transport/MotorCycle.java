@@ -1,4 +1,4 @@
 package Lec19_Inheritance.Transport;
 
-public class MotorCycle {
+public class MotorCycle extends Vehicle{
 }
