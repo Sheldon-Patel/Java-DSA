@@ -10,4 +10,8 @@ public class MotorCycle extends Vehicle{
         this.handleBarStyle = handleBarStyle;
         this.suspensionType = suspensionType;
     }
+
+     public void wheelie(){
+         System.out.println("motorcycle s doing wheelie "+name);
+     }
 }
