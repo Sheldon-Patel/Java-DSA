@@ -10,5 +10,6 @@ public class Main {
         MotorCycle m = new MotorCycle("splendor","Xline",2,"U","Soft");
         m.startEngine();
         m.wheelie();
+        m.stopEngine();
     }
 }
