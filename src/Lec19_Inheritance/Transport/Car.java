@@ -9,5 +9,10 @@ public class Car extends Vehicle{
         super(name,model,noOfTyres);
         this.noOfDoors = noOfDoors;
         this.transmissionType = transmissionType;
+//        super.startEngine();
+    }
+
+    public void startAC(){
+        System.out.println("AC started of "+name);
     }
 }
