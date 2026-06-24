@@ -8,6 +8,6 @@ public class Main {
 //        c.stopEngine();
 
         MotorCycle m = new MotorCycle("splendor","Xline",2,"U","Soft");
-
+        m.startEngine();
     }
 }
