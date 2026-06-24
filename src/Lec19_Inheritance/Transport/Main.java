@@ -7,6 +7,7 @@ public class Main {
 //        c.startAC();
 //        c.stopEngine();
 
+        MotorCycle m = new MotorCycle("splendor","Xline",2,"U","Soft");
 
     }
 }
