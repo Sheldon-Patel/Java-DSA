@@ -7,6 +7,7 @@ public class Car extends Vehicle{
 
     Car(String name, String model, int noOfTyres, int noOfDoors, String transmissionType){
         super(name,model,noOfTyres);
-
+        this.noOfDoors = noOfDoors;
+        this.transmissionType = transmissionType;
     }
 }
