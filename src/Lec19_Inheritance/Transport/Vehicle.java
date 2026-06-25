@@ -1,7 +1,7 @@
 package Lec19_Inheritance.Transport;
 
 public class Vehicle {
-    private String name;
+    protected String name;
 
     public String model;
 
