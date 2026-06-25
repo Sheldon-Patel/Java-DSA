@@ -7,19 +7,34 @@ public class Main {
 //        System.out.println(c.add(2,3,4));
 //        System.out.println(c.add(2,3,4,5.6));
 
+//
+//        // runtime polymorphism
+//        Circle c = new Circle();
+////        c.draw();
+//        doDrawStuff(c);
+//
+//        Rect r = new Rect();
+////        r.draw();
+//        doDrawStuff(r);
+//
+//        Shape s = new Shape();
+//        doDrawStuff(s);
 
-        // runtime polymorphism
-        Circle c = new Circle();
-//        c.draw();
-        doDrawStuff(c);
+
+        // downcasting
+//        Circle c = new Circle();
+//        doDrawStuff(c);
 
         Rect r = new Rect();
-//        r.draw();
         doDrawStuff(r);
     }
 
     public static void doDrawStuff(Shape s){
-        s.draw();
+        s.draw();  //polymorphic
+
+        Circle c = (Circle)s;  //downcasting
+        c.draw();
+
     }
 
 
