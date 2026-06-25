@@ -29,7 +29,7 @@ public class Main {
 //        doDrawStuff(r);
     }
 
-    public static void doDrawStuff(Shape s){       // in downcasting the shape s can be any  it is generlized
+    public static void doDrawStuff(Shape s){       // in downcasting the shape s can be any shape it is generlized
         s.draw();  //polymorphic
 
         Circle c = (Circle)s;  //downcasting
