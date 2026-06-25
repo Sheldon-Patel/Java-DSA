@@ -15,6 +15,7 @@ public class Main {
 
         Rect r = new Rect();
 //        r.draw();
+        doDrawStuff(r);
     }
 
     public static void doDrawStuff(Shape s){
