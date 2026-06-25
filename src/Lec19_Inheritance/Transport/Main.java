@@ -6,6 +6,7 @@ public class Main {
         c.startEngine();
         c.startAC();
         c.stopEngine();
+        System.out.println(c.name);
 
         MotorCycle m = new MotorCycle("splendor","Xline",2,"U","Soft");
         m.startEngine();
