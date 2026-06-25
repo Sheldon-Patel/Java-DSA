@@ -22,19 +22,19 @@ public class Main {
 
 
         // downcasting
-//        Circle c = new Circle();
-//        doDrawStuff(c);
+        Circle c = new Circle();
+        doDrawStuff(c);
 
-        Rect r = new Rect();
-        doDrawStuff(r);
+//        Rect r = new Rect();
+//        doDrawStuff(r);
     }
 
-    public static void doDrawStuff(Shape s){
+    public static void doDrawStuff(Shape s){       // downcasting the shape s can be any shape it is generlized
         s.draw();  //polymorphic
 
         Circle c = (Circle)s;  //downcasting
-        c.draw();
-
+//        c.draw();
+        c.personal();
     }
 
 
