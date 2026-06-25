@@ -3,6 +3,9 @@ package Lec20_Polymorphism;
 public class Main {
     static void main(String[] args) {
         Calculator c = new Calculator();
-        c.add(2,3)
+        System.out.println(c.add(2,3));
+        System.out.println(c.add(2,3,4));
+        System.out.println(c.add(2,3,4,5.6));
+
     }
 }

@@ -10,7 +10,7 @@ public class Calculator {
         return a + b + c;
     }
 
-    double add(int a, int b, int c, int d){
+    double add(int a, int b, int c, double d){
         return a+b+c+d;
     }
 }
