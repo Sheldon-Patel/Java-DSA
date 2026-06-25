@@ -2,6 +2,7 @@ package Lec19_Inheritance.Transport;
 
 public class Vehicle {
      String name;
+     // nothing written
 
     public String model;
 
