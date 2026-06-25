@@ -9,7 +9,17 @@ public class Main {
 
 
         // runtime polymorphism
+        Circle c = new Circle();
+//        c.draw();
+        doDrawStuff(c);
 
-
+        Rect r = new Rect();
+//        r.draw();
     }
+
+    public static void doDrawStuff(Shape s){
+        s.draw();
+    }
+
+
 }
