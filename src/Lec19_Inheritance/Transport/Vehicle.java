@@ -2,7 +2,7 @@ package Lec19_Inheritance.Transport;
 
 public class Vehicle {
      String name;
-     // nothing written so its default
+     // nothing written so its default access modifier or specifier
 
     public String model;
 
