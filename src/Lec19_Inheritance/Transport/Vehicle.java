@@ -1,13 +1,13 @@
 package Lec19_Inheritance.Transport;
 
 public class Vehicle {
-    public String name;
+    private String name;
 
     public String model;
 
     public int noOfTyres;
 
-    Vehicle(){
+   public Vehicle(){
         this.name = "";
         this.model = "";
         this.noOfTyres = -1;
