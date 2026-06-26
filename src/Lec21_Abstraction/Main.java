@@ -7,7 +7,7 @@ abstract class Bird{
 }
 
 
-class sparrow implements Bird{
+class sparrow extends Bird{
 
     @Override
     void fly() {
