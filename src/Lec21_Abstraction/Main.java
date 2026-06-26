@@ -38,9 +38,14 @@ class Crow extends Bird{
 
 public class Main {
     static void main(String[] args) {
-        Bird b = new Bird();
+        Bird b = new Sparrow();
         b.eat();
         b.fly();
+
+        b = new Crow();
+        b.fly();
+        b.eat();
+
     }
 
 }
