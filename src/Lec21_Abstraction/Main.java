@@ -16,7 +16,7 @@ class sparrow implements Bird{
 
     @Override
     void eat() {
-
+        System.out.println("Sparrow eating");
     }
 }
 
