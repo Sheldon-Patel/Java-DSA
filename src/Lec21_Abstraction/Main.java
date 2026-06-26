@@ -20,6 +20,19 @@ class Sparrow extends Bird{
     }
 }
 
+class Crow extends Bird{
+
+    @Override
+    void fly() {
+        System.out.println("Crow flying");
+    }
+
+    @Override
+    void eat() {
+        System.out.println("Crow eating");
+    }
+}
+
 
 
 
