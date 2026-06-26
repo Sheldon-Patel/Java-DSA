@@ -7,7 +7,7 @@ abstract class Bird{
 }
 
 
-class sparrow extends Bird{
+class Sparrow extends Bird{
 
     @Override
     void fly() {
@@ -24,5 +24,10 @@ class sparrow extends Bird{
 
 
 public class Main {
+    static void main(String[] args) {
+        Bird b = new Bird();
+        b.eat();
+        b.fly();
+    }
 
 }
