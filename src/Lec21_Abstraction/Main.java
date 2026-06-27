@@ -29,7 +29,7 @@ class Crow extends Bird{
 
     @Override
     void eat() {
-        System.out.println("Crow eating");
+        System.out.println("Crow eating alag way sa");
     }
 }
 
