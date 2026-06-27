@@ -51,6 +51,8 @@ public class Main {
 //        b = new Crow();
 //        b.fly();
 //        b.eat();
+        doBirdStuff(new Sparrow());
+        doBirdStuff(new Crow());
 
     }
 
