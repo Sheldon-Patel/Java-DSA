@@ -68,10 +68,20 @@ interface Bird{
 
     void eat();
 
+    default void sleep(){
+        System.out.println("bird sleep");
+    }
+}
+
+interface Walk{
+    public static final int legs = 4;   //so the legs variavle is public static and final means cannot change
+
+    void walking();
+
 }
 
 
-class Sparrow implements Bird{
+class Sparrow implements Bird,Walk{
 
 
     @Override
@@ -82,6 +92,11 @@ class Sparrow implements Bird{
     @Override
     public void eat() {
         System.out.println("sparrow eating");
+    }
+
+    @Override
+    public void walking() {
+        System.out.println("sparrow walk");
     }
 }
 
