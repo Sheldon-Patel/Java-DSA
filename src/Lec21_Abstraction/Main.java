@@ -73,26 +73,27 @@ interface Bird{
 
 class Sparrow implements Bird{
 
+
     @Override
-    void fly() {
-        System.out.println("sparrow flying alag way sa");
+    public void fly() {
+        System.out.println("sparrow flying");
     }
 
     @Override
-    void eat() {
-        System.out.println("Sparrow eating");
+    public void eat() {
+        System.out.println("sparrow eating");
     }
 }
 
-class Crow extends Bird{
+class Crow implements Bird{
 
     @Override
-    void fly() {
+   public void fly() {
         System.out.println("Crow flying");
     }
 
     @Override
-    void eat() {
+  public  void eat() {
         System.out.println("Crow eating alag way sa");
     }
 }
