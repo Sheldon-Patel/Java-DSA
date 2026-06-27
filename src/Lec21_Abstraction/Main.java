@@ -74,7 +74,7 @@ interface Bird{
 }
 
 interface Walk{
-    public static final int legs = 4;   //so the legs variavle is public static and final means cannot change by default
+    public static final int legs = 4;   //so the legs variable is public static and final means cannot change by default
 
     void walking();
 
