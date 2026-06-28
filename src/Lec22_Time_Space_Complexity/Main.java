@@ -1,5 +1,5 @@
 package Lec22_Time_Space_Complexity;
 
 public class Main {
-    // for time
+    // for time and space
 }
