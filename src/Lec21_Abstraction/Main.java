@@ -74,8 +74,9 @@ interface Bird{
 }
 
 interface Walk{
-    public static final int legs = 4;   //so the legs variable is public static and final means cannot change by default so
-    // so even if you dont write public static final its ok
+    int legs = 4;
+//    public static final int legs = 4;   //so the legs variable is public static and final means cannot change by default so
+    // so even if you dont write public static final its ok dont write its better
 
     void walking();
 
@@ -97,6 +98,7 @@ class Sparrow implements Bird,Walk{
 
     @Override
     public void walking() {
+        int a = Walk.legs;
         System.out.println("sparrow walk");
     }
 }
