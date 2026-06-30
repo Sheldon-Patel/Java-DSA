@@ -34,6 +34,8 @@ public class Main {
         list.removeAll(list2);
         System.out.println(list);
 
+        System.out.println(list.size());
+
 
 //        List<Integer> list = new ArrayList<>();
 //        Collection<Integer> collection =  new ArrayList<>();
