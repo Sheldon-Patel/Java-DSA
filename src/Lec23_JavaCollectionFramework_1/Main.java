@@ -1,7 +1,9 @@
 package Lec23_JavaCollectionFramework_1;
 
+import javax.naming.InsufficientResourcesException;
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Iterator;
 import java.util.List;
 
 public class Main {
@@ -40,6 +42,13 @@ public class Main {
         list2.clear();
         System.out.println(list2.size());
 //        System.out.println(list2);
+
+        // i want to traverse list using iterator
+        Iterator<Integer> iterator = list.iterator();
+
+        while(iterator.hasNext()){
+            System.out.println("Elements: "+ iterator.next());
+        }
 
 
 //        List<Integer> list = new ArrayList<>();
