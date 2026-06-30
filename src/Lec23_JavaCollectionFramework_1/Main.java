@@ -26,7 +26,7 @@ public class Main {
         List<Integer> list2 = new ArrayList<>();
         list2.add(101);
         list2.add(102);
-        list.add(20);
+        list2.add(20);
 
         list.addAll(list2);
         System.out.println(list);
