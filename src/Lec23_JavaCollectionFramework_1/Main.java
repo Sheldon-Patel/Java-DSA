@@ -65,5 +65,13 @@ public class Main {
 
 //        Collection<Integer> collection =  new ArrayList<>();
 
+        //toArray
+        Object [] arr = list3.toArray();
+        for(Object obj : arr){
+            System.out.println(obj);
+        }
+
+
+
     }
 }
