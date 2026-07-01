@@ -57,6 +57,11 @@ public class Main {
         list3.add(14);
         System.out.println(list3.get(0));
 
+        System.out.println("before set: "+list3);
+        list3.set(0, 100);
+        System.out.println("After set: "+list3);
+
+
 
 //        Collection<Integer> collection =  new ArrayList<>();
 
