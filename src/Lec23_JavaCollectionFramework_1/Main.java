@@ -51,7 +51,11 @@ public class Main {
         }
 
 
-//        List<Integer> list = new ArrayList<>();
+        List<Integer> list3 = new ArrayList<>();
+        list3.add(11)
+
+
+
 //        Collection<Integer> collection =  new ArrayList<>();
 
     }
