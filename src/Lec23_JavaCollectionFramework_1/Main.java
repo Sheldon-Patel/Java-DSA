@@ -71,6 +71,9 @@ public class Main {
             System.out.println(obj);
         }
 
+        //contains
+        System.out.println(list3.contains(100));
+
 
 
     }
