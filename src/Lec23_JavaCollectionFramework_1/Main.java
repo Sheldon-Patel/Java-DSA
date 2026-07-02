@@ -80,5 +80,7 @@ public class Main {
         Collections.sort(list);
         System.out.println("printing entier list: "+ list);
 
+
+        ArrayList<Integer>newList = (ArrayList<Integer>) list.clone();
     }
 }
