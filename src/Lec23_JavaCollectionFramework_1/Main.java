@@ -75,6 +75,8 @@ public class Main {
         System.out.println(list3.contains(100));
 
 
+        list.add(60);
+        System.out.println("printing entier list: "+ list);
 
     }
 }
