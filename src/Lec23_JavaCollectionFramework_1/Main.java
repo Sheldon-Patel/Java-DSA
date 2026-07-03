@@ -85,6 +85,7 @@ public class Main {
         // (ArrayList<Integer>) is added for typecasting
         System.out.println(newList);
 
+        // ensureCapacity
         ArrayList<Integer> marks = new ArrayList<>();
         marks.ensureCapacity(100);
 
