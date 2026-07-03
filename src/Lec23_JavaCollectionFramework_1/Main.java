@@ -87,5 +87,7 @@ public class Main {
 
         ArrayList<Integer> marks = new ArrayList<>();
         marks.ensureCapacity(100);
+
+        System.out.println(marks.isEmpty());
     }
 }
