@@ -89,5 +89,7 @@ public class Main {
         marks.ensureCapacity(100);
 
         System.out.println(marks.isEmpty());
+
+        System.out.println(newList.indexOf(40));
     }
 }
