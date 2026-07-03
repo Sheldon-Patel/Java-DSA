@@ -82,6 +82,7 @@ public class Main {
 
 
         ArrayList<Integer>newList = (ArrayList<Integer>) list.clone();
+        // (ArrayList<Integer>)
         System.out.println(newList);
     }
 }
