@@ -84,5 +84,8 @@ public class Main {
         ArrayList<Integer>newList = (ArrayList<Integer>) list.clone();
         // (ArrayList<Integer>) is added for typecasting
         System.out.println(newList);
+
+        ArrayList<Integer> marks = new ArrayList<>();
+        marks.ensureCapacity(100);
     }
 }
