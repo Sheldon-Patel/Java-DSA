@@ -82,7 +82,7 @@ public class Main {
 
 
         ArrayList<Integer>newList = (ArrayList<Integer>) list.clone();
-        // (ArrayList<Integer>) is added
+        // (ArrayList<Integer>) is added for type
         System.out.println(newList);
     }
 }
