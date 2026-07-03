@@ -89,7 +89,7 @@ public class Main {
         ArrayList<Integer> marks = new ArrayList<>();
         marks.ensureCapacity(100);
 
-        // is
+        // isEmpty
         System.out.println(marks.isEmpty());
 
         System.out.println(newList.indexOf(40));
