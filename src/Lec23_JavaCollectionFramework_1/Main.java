@@ -92,7 +92,7 @@ public class Main {
         // isEmpty
         System.out.println(marks.isEmpty());
 
-        //index
+        //indexOf
         System.out.println(newList.indexOf(40));
     }
 }
