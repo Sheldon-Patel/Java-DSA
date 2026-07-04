@@ -94,6 +94,12 @@ public class Main {
         // isEmpty
         System.out.println(marks.isEmpty());
 
+        list.add(30);
+        list.add(24);
+        list.add(30);
+
+        System.out.println();
+
         System.out.println("printing original list"+ list);
 
         //indexOf
