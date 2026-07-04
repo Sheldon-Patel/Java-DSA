@@ -23,7 +23,7 @@ public class Main {
         System.out.println(list);
 
         //addAll
-        List<Integer> list2 = new ArrayList<>();
+        List<Integer> list2 = new LinkedList<>();
         list2.add(101);
         list2.add(102);
         list2.add(20);
