@@ -8,7 +8,8 @@ public class Main {
         // list or collection -> interface
 
         // ArrayList -> concrete class
-        ArrayList<Integer> list = new ArrayList<>();
+//        ArrayList<Integer> list = new ArrayList<>();
+        List<Integer> list = new LinkedList<>();
 
         // add
         list.add(10);
