@@ -94,7 +94,7 @@ public class Main {
         // isEmpty
         System.out.println(marks.isEmpty());
 
-        System.out.println();
+        System.out.println("printing");
 
         //indexOf
         System.out.println(list.indexOf(40));
