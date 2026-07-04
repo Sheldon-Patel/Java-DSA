@@ -49,7 +49,8 @@ public class Main {
         }
 
 
-        List<Integer> list3 = new ArrayList<>();
+        List<Integer> list3 = new LinkedList<>();
+//        List<Integer> list3 = new ArrayList<>();
         list3.add(11);
         list3.add(12);
         list3.add(14);
@@ -82,9 +83,9 @@ public class Main {
         System.out.println("printing entier list: "+ list);
 
 
-        ArrayList<Integer>newList = (ArrayList<Integer>) list.clone();
+//        LinkedList<Integer>newList = (LinkedList<Integer>) list.clone();
         // (ArrayList<Integer>) is added for typecasting
-        System.out.println(newList);
+//        System.out.println(newList);
 
         // ensureCapacity
         ArrayList<Integer> marks = new ArrayList<>();
@@ -94,6 +95,6 @@ public class Main {
         System.out.println(marks.isEmpty());
 
         //indexOf
-        System.out.println(newList.indexOf(40));
+//        System.out.println(newList.indexOf(40));
     }
 }
