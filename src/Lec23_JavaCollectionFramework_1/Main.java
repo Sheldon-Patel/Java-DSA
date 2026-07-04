@@ -98,7 +98,7 @@ public class Main {
         list.add(24);
         list.add(30);
 
-        System.out.println();
+        System.out.println(list);
 
         System.out.println("printing original list"+ list);
 
