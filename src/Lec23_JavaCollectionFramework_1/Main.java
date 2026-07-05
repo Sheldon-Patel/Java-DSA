@@ -120,6 +120,8 @@ public class Main {
         System.out.println(ll);
         ll.addFirst(1);
         System.out.println(ll);
+        ll.addLast(101);
+        System.out.println(ll);
 
 
     }
