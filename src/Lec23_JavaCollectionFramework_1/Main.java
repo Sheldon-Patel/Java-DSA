@@ -111,6 +111,7 @@ public class Main {
         list.remove(3);
         list.remove(3);
         list.remove(3);
+        list.remove(3);
         System.out.println("printing original list"+ list);
 
 
