@@ -126,6 +126,9 @@ public class Main {
         ll.removeFirst();
         System.out.println(ll);
 
+        ll.removeLast();
+        System.out.println(ll);
+
 
     }
 }
