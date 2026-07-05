@@ -123,6 +123,9 @@ public class Main {
         ll.addLast(101);
         System.out.println(ll);
 
+        ll.removeFirst();
+        System.out.println(ll);
+
 
     }
 }
