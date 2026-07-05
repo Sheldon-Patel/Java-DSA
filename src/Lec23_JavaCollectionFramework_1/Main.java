@@ -125,6 +125,8 @@ public class Main {
 
         System.out.println(ll.getFirst());
 
+        System.out.println(ll.getLast());
+
 //        ll.removeFirst();
 //        System.out.println(ll);
 //
