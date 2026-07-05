@@ -108,6 +108,11 @@ public class Main {
         System.out.println(list.indexOf(40));
 
         // addFirst and addLast
+        list.remove(3);
+        list.remove(3);
+        list.remove(3);
+        System.out.println("printing original list"+ list);
+
 
     }
 }
