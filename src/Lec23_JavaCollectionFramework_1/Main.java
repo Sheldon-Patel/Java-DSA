@@ -130,7 +130,7 @@ public class Main {
         System.out.println(ll.peek());
 
         System.out.println("before :"+ll);
-        System.out.println(ll.poll());
+        System.out.println("polling" +ll.poll());
         System.out.println("after :"+ll);
 
 
