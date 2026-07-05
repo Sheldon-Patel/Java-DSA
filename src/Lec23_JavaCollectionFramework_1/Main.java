@@ -123,11 +123,13 @@ public class Main {
         ll.addLast(101);
         System.out.println(ll);
 
-        ll.removeFirst();
-        System.out.println(ll);
+        System.out.println(ll.getFirst());
 
-        ll.removeLast();
-        System.out.println(ll);
+//        ll.removeFirst();
+//        System.out.println(ll);
+//
+//        ll.removeLast();
+//        System.out.println(ll);
 
 
     }
