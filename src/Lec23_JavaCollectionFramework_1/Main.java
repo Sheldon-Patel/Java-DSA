@@ -127,6 +127,10 @@ public class Main {
 
         System.out.println(ll.getLast());
 
+        System.out.println(ll.peek());
+
+
+
 //        ll.removeFirst();
 //        System.out.println(ll);
 //
