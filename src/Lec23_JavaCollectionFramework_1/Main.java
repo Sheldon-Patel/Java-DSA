@@ -113,6 +113,13 @@ public class Main {
         list.remove(3);
         list.remove(3);
         System.out.println("printing original list"+ list);
+//        list.addFirst(101);
+
+        LinkedList<Integer> ll = new LinkedList<>();
+        ll.add(10);
+        System.out.println(ll);
+        ll.addFirst(1);
+        System.out.println(ll);
 
 
     }
