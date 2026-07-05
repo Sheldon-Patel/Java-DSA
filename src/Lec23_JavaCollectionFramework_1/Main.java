@@ -106,5 +106,8 @@ public class Main {
 
         //indexOf
         System.out.println(list.indexOf(40));
+
+        // addFirst and addLast
+
     }
 }
