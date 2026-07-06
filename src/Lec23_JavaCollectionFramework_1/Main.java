@@ -162,6 +162,8 @@ public class Main {
         st.pop();
         System.out.println(st);
 
+        System.out.println(st.peek());
+
 
 
     }
