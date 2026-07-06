@@ -9,7 +9,8 @@ public class Main {
 
         // ArrayList -> concrete class
 //        ArrayList<Integer> list = new ArrayList<>();
-        List<Integer> list = new LinkedList<>();
+//        List<Integer> list = new LinkedList<>();
+        List<Integer> list = new Vector<>();
 
         // add
         list.add(10);
@@ -132,6 +133,9 @@ public class Main {
         System.out.println("before :"+ll);
         System.out.println("polling" +ll.poll());
         System.out.println("after :"+ll);
+
+        ll.offer(40);
+        System.out.println(ll);
 
 
 
