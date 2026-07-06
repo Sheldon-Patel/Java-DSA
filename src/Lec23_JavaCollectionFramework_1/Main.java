@@ -13,6 +13,7 @@ public class Main {
 //        List<Integer> list = new Vector<>();
         List<Integer> list = new Stack<>();
 
+
         // add
         list.add(10);
         list.add(20);
@@ -147,6 +148,10 @@ public class Main {
 //
 //        ll.removeLast();
 //        System.out.println(ll);
+
+        Stack<Integer> st = new Stack<>();
+        st.push();
+
 
 
     }
