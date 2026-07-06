@@ -150,7 +150,17 @@ public class Main {
 //        System.out.println(ll);
 
         Stack<Integer> st = new Stack<>();
-        st.push();
+        st.push(10);
+        System.out.println(st);
+
+        st.push(20);
+        System.out.println(st);
+
+        st.push(30);
+        System.out.println(st);
+
+        st.pop();
+        System.out.println(st);
 
 
 
