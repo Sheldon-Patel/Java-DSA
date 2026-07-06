@@ -81,6 +81,7 @@ public class Main {
         System.out.println("printing entier list: "+ list);
 
         // sort an arraylist
+        System.out.println("sorting");
         Collections.sort(list);
         System.out.println("printing entier list: "+ list);
 
