@@ -10,8 +10,8 @@ public class Main {
         // ArrayList -> concrete class
 //        ArrayList<Integer> list = new ArrayList<>();
 //        List<Integer> list = new LinkedList<>();
-        List<Integer> list = new Vector<>();
-        List<Integer> list = new Vector<>();
+//        List<Integer> list = new Vector<>();
+        List<Integer> list = new Stack<>();
 
         // add
         list.add(10);
@@ -25,7 +25,7 @@ public class Main {
         System.out.println(list);
 
         //addAll
-        List<Integer> list2 = new Vector<>();
+        List<Integer> list2 = new Stack<>();
         list2.add(101);
         list2.add(102);
         list2.add(20);
