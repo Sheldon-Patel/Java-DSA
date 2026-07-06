@@ -11,6 +11,7 @@ public class Main {
 //        ArrayList<Integer> list = new ArrayList<>();
 //        List<Integer> list = new LinkedList<>();
         List<Integer> list = new Vector<>();
+        List<Integer> list = new Vector<>();
 
         // add
         list.add(10);
