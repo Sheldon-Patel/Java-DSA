@@ -51,7 +51,7 @@ public class Main {
         }
 
 
-        List<Integer> list3 = new Vector<>();
+        List<Integer> list3 = new Stack<>();
 //        List<Integer> list3 = new ArrayList<>();
         list3.add(11);
         list3.add(12);
