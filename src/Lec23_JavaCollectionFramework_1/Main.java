@@ -164,6 +164,10 @@ public class Main {
 
         System.out.println(st.peek());
 
+        System.out.println(st.search(10));
+
+        System.out.println(st.empty());
+
 
 
     }
