@@ -89,11 +89,11 @@ public class Main {
 //        System.out.println(newList);
 
         // ensureCapacity
-        ArrayList<Integer> marks = new ArrayList<>();
-        marks.ensureCapacity(100);
+//        ArrayList<Integer> marks = new ArrayList<>();
+//        marks.ensureCapacity(100);
 
         // isEmpty
-        System.out.println(marks.isEmpty());
+//        System.out.println(marks.isEmpty());
 
         list.add(30);
         list.add(24);
@@ -116,26 +116,26 @@ public class Main {
         System.out.println("printing original list"+ list);
 //        list.addFirst(101);
 
-        LinkedList<Integer> ll = new LinkedList<>();
-        ll.add(10);
-        System.out.println(ll);
-        ll.addFirst(1);
-        System.out.println(ll);
-        ll.addLast(101);
-        System.out.println(ll);
-
-        System.out.println(ll.getFirst());
-
-        System.out.println(ll.getLast());
-
-        System.out.println(ll.peek());
-
-        System.out.println("before :"+ll);
-        System.out.println("polling" +ll.poll());
-        System.out.println("after :"+ll);
-
-        ll.offer(40);
-        System.out.println(ll);
+//        LinkedList<Integer> ll = new LinkedList<>();
+//        ll.add(10);
+//        System.out.println(ll);
+//        ll.addFirst(1);
+//        System.out.println(ll);
+//        ll.addLast(101);
+//        System.out.println(ll);
+//
+//        System.out.println(ll.getFirst());
+//
+//        System.out.println(ll.getLast());
+//
+//        System.out.println(ll.peek());
+//
+//        System.out.println("before :"+ll);
+//        System.out.println("polling" +ll.poll());
+//        System.out.println("after :"+ll);
+//
+//        ll.offer(40);
+//        System.out.println(ll);
 
 
 
