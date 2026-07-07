@@ -19,6 +19,12 @@ public class ArrayDequeBasics {
         q.pollFirst();
         System.out.println(q);
 
+        System.out.println(q.size());
+
+        System.out.println(q.peek());
+        System.out.println(q.peekFirst());
+        System.out.println(q.peekLast() );
+
 
     }
 }
