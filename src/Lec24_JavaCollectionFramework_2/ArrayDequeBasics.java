@@ -1,4 +1,24 @@
 package Lec24_JavaCollectionFramework_2;
 
+import java.util.ArrayDeque;
+import java.util.Deque;
+import java.util.Queue;
+
 public class ArrayDequeBasics {
+    public static void main(String[] args) {
+//        Queue<Integer> q = new ArrayDeque<>();
+        Deque<Integer> q = new ArrayDeque<>();
+        q.offer(10);
+        q.offerFirst(5);
+        q.offerLast(50);
+        System.out.println(q);
+
+
+        q.pollLast();
+        System.out.println(q);
+        q.pollFirst();
+        System.out.println(q);
+
+
+    }
 }
