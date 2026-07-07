@@ -15,5 +15,6 @@ public class StackBasics {
 
         stack.pop();
         System.out.println(stack);
+        System.out.println(stack.peek());
     }
 }
