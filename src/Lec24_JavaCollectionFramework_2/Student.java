@@ -21,8 +21,8 @@ public class Student {
 
      }
 
-     // name can be same but rolno are different;
-    
+     // name can be same but rollno are different;
+
     @Override
     public boolean equals(Object o) {
         if (o == null || getClass() != o.getClass()) return false;
