@@ -8,7 +8,8 @@ public class PriorityQueueBasics {
 //         Queue<Integer> pq = new PriorityQueue<>();
          Queue<Integer> pq = new PriorityQueue<>((a,b)->b-a);
 //default behaviour-> integer ->less value-> high priority ->minHeap
-//maxHeap-> integer ->high value-> high priority 
+//maxHeap-> integer ->high value-> high priority
+         //pq-> string-> comparator    (comparator is the expression written in the bracket<>(..here) it is called lambda expression
          pq.offer(40);
          pq.offer(30);
          pq.offer(10);
