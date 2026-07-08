@@ -1,7 +1,9 @@
 package Lec24_JavaCollectionFramework_2;
 
 import java.util.HashSet;
+import java.util.LinkedHashSet;
 import java.util.Set;
+import java.util.TreeSet;
 
 
 public class HashSetsBasics {
@@ -36,7 +38,34 @@ public class HashSetsBasics {
 //        st.add(20);
 //        st.add(20);
 //        st.add(30);
+//        System.out.println(st);
+
+
+//        Set<Integer> st = new LinkedHashSet<>();
+//        st.add(40);
+//        st.add(10);
+//        st.add(10);
+//        st.add(10);
+//        st.add(10);
+//        st.add(10);
+//        st.add(20);
+//        st.add(20);
+//        st.add(30);
 //
 //        System.out.println(st);
+
+
+        Set<Integer> st = new TreeSet<>();
+        st.add(40);
+        st.add(10);
+        st.add(10);
+        st.add(10);
+        st.add(10);
+        st.add(10);
+        st.add(20);
+        st.add(20);
+        st.add(30);
+
+        System.out.println(st);
     }
 }
