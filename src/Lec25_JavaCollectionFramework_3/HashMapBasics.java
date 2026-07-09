@@ -10,11 +10,18 @@ public class HashMapBasics {
 
         //insertion
         mapping.put("in","India");
+//        mapping.put("in","India2");
         mapping.put("en","England");
         mapping.put("us","United States");
 
         System.out.println(mapping  );
 
+        Map<String,String> table = new HashMap<>();
+        table.put("br","Brazil");
+
+        System.out.println("before"+table);
+        table.putAll(mapping);
+        System.out.println("after"+table);
 
     }
 }
