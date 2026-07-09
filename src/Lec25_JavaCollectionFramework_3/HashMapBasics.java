@@ -27,9 +27,15 @@ public class HashMapBasics {
         table.remove("en");
         System.out.println(table);
 
-        System.out.println(table.size());
-        table.clear();
-        System.out.println(table.size());
+        System.out.println(table.get("br"));
+
+//        table.putIfAbsent("is","India");
+        table.putIfAbsent("is","India3");
+        System.out.println(table);
+
+//        System.out.println(table.size());
+//        table.clear();
+//        System.out.println(table.size());
 
     }
 }
