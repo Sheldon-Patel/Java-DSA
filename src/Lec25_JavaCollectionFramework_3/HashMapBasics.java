@@ -29,6 +29,15 @@ public class HashMapBasics {
 
         System.out.println(table.get("br"));
 
+        System.out.println(table.getOrDefault("us","NONE"));
+        System.out.println(table.getOrDefault("usa","NONE"));
+
+
+        System.out.println(table.containsKey("in"));
+
+        System.out.println(table.containsValue("United States"));
+
+
 //        table.putIfAbsent("is","India");
         table.putIfAbsent("is","India3");
         System.out.println(table);
