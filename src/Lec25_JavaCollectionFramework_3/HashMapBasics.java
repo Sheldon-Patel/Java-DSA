@@ -1,12 +1,13 @@
 package Lec25_JavaCollectionFramework_3;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 public class HashMapBasics {
     public static void main(String[] args){
 
-        Map<String,String> mapping = new HashMap<>();
+//        Map<String,String> mapping = new HashMap<>(); 
+//        Map<String,String> mapping = new LinkedHashMap<>();
+        Map<String,String> mapping = new TreeMap<>();
 
         //insertion
         mapping.put("in","India");
@@ -39,6 +40,18 @@ public class HashMapBasics {
 
         System.out.println(table.replace("in","Indonesia"));
         System.out.println(table  );
+
+
+        Set<String> keyset = table.keySet();
+        System.out.println(keyset);
+
+        Collection<String> valueset = table.values();
+        System.out.println(valueset );
+
+        //get all the entries from map
+         Set<Map.Entry<String,String>> st = table.entrySet();
+        System.out.println(st);
+
 
 
 
