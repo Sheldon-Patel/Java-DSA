@@ -37,10 +37,15 @@ public class HashMapBasics {
 
         System.out.println(table.containsValue("United States"));
 
+        System.out.println(table.replace("in","Indonesia"));
+        System.out.println(table  );
+
+
+
 
 //        table.putIfAbsent("is","India");
-        table.putIfAbsent("is","India3");
-        System.out.println(table);
+//        table.putIfAbsent("is","India3");
+//        System.out.println(table);
 
 //        System.out.println(table.size());
 //        table.clear();
