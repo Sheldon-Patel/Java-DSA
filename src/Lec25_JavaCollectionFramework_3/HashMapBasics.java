@@ -23,5 +23,13 @@ public class HashMapBasics {
         table.putAll(mapping);
         System.out.println("after"+table);
 
+        //deletion
+        table.remove("en");
+        System.out.println(table);
+
+        System.out.println(table.size());
+        table.clear();
+        System.out.println(table.size());
+
     }
 }
