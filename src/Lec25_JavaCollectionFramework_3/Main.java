@@ -12,16 +12,13 @@ public class Main {
 
     students.add(new Student(19,"Vipul",68));
     students.add(new Student(23,"love",87));
-    students.add(new Student(21,"Ankit",55));
+    students.add(new Student(23,"Ankit",55));
     students.add(new Student(7,"Billu",13));
 
         System.out.println(students);
 
         Collections.sort(students );
         System.out.println(students);
-
-
-
 
 
 

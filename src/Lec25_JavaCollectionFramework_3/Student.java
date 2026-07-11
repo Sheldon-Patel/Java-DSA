@@ -56,8 +56,14 @@ public class Student implements Comparable<Student>{
         // this method is called for the current object
         // we will define our sorting logic here
 
+        if(this.age == that.age){
+            return this.name.compareTo(that.name);
+
+        }
+
         // sort on basis of age
-        return this.age -  that.age;
+        return this.age -  that.age;   //ascending order
+//        return that.age -  this.age;   //decending order
 
     }
 }
