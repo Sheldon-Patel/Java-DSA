@@ -18,12 +18,19 @@ public class Main {
 
         System.out.println(students);
 
-        Collections.sort(students, new Comparator<Student>() {
-            @Override
-            public int compare(Student o1, Student o2) {
-                 return o1.weight - o2.weight;
-            }
-        });
+        Collections.sort(students, new WeightComparator());
+        // WeightComparator class was made in other file and its obj was made here and used
+
+//        Collections.sort(students, new Comparator<Student>() {
+//            @Override
+//            public int compare(Student o1, Student o2) {
+//                 return o1.weight - o2.weight;
+//            }
+//        });
+
+        Collections.sort(students,(o1,o2) -> o1.weight - o2.weight );
+//        (a,b) -> b-a;
+//        the above big collections.sort in this small lambda expresion
 
 
         System.out.println(students);
