@@ -1,24 +1,31 @@
 package Lec25_JavaCollectionFramework_3;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.List;
+import java.util.*;
 
 
 public class Main {
     public static void main(String [] args){
 
-    List<Student> students = new ArrayList<>();
+//        int [] arr ={5,1,7,2,8,4};        //for acending
+        Integer [] arr ={5,1,7,2,8,4};          // for decending 
+        Arrays.sort(arr, new ReverseCmp());           //decending
+//        Arrays.sort(arr);      //ascending
+        for (int a: arr) {        //for-each loop
+            System.out.print(a+" ");
+        }
 
-    students.add(new Student(19,"Vipul",68));
-    students.add(new Student(23,"love",87));
-    students.add(new Student(23,"Ankit",55));
-    students.add(new Student(7,"Billu",13));
 
-        System.out.println(students);
 
-        Collections.sort(students, new WeightComparator());
+//    List<Student> students = new ArrayList<>();
+//
+//    students.add(new Student(19,"Vipul",68));
+//    students.add(new Student(23,"love",87));
+//    students.add(new Student(23,"Ankit",55));
+//    students.add(new Student(7,"Billu",13));
+//
+//        System.out.println(students);
+//
+//        Collections.sort(students, new WeightComparator());
         // WeightComparator class was made in other file and its obj was made here and used
 
 //        Collections.sort(students, new Comparator<Student>() {
@@ -28,12 +35,12 @@ public class Main {
 //            }
 //        });
 
-        Collections.sort(students,(o1,o2) -> o1.weight - o2.weight );
+//        Collections.sort(students,(o1,o2) -> o1.weight - o2.weight );
 //        (a,b) -> b-a;
 //        the above big collections.sort in this small lambda expresion
 
 
-        System.out.println(students);
+//        System.out.println(students);
 
 
 
