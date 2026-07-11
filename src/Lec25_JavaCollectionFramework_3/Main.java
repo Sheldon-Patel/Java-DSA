@@ -2,6 +2,7 @@ package Lec25_JavaCollectionFramework_3;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 
@@ -17,7 +18,14 @@ public class Main {
 
         System.out.println(students);
 
-        Collections.sort(students );
+        Collections.sort(students, new Comparator<Student>() {
+            @Override
+            public int compare(Student o1, Student o2) {
+                 return o1.weight - o2.weight;
+            }
+        });
+
+
         System.out.println(students);
 
 
