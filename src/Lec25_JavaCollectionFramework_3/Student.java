@@ -1,7 +1,7 @@
 package Lec25_JavaCollectionFramework_3;
 
 
-public class Student {
+public class Student implements Comparable<Student>{
     public int age;
 
     public String name;
@@ -47,5 +47,17 @@ public class Student {
         this.age = age;
         this.name = name ;
         this.weight = weight;
+    }
+
+
+
+    @Override
+    public int compareTo(Student that) {
+        // this method is called for the current object
+        // we will define our sorting logic here
+
+        // sort on basis of age
+        return this.age -  that.age;
+
     }
 }

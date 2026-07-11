@@ -17,6 +17,9 @@ public class Main {
 
         System.out.println(students);
 
+        Collections.sort(students );
+        System.out.println(students);
+
 
 
 
