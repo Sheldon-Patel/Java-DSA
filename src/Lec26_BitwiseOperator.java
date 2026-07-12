@@ -1,5 +1,6 @@
 public class Lec26_BitwiseOperator {
-    public static void main() {
+    static void main() {
 
+        int a =5;
     }
 }
