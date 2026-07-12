@@ -3,5 +3,7 @@ public class Lec26_BitwiseOperator {
 
         int a = 5;
         int b = 6;
+
+        System.out.println(a & b);
     }
 }
