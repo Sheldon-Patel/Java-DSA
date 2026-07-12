@@ -12,6 +12,7 @@ public class Lec26_BitwiseOperator {
         int n = 5;
         for(int i = 1; i<=32; i++){
             n = n << 1;
+            System.out.println(n);
 
         }
     }
