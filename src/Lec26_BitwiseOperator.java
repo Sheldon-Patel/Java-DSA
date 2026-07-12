@@ -15,6 +15,8 @@ public class Lec26_BitwiseOperator {
 //            n = n << 1;
 //            System.out.println(n);
 
+
+        // bitwise right shift
             int n = 100;
         for(int i = 1; i<=10; i++){
             n = n >> 1;
