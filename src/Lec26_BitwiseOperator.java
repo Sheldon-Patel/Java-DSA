@@ -9,6 +9,7 @@ public class Lec26_BitwiseOperator {
         System.out.println(a ^ b);
         System.out.println(~a);
 
+//        bitwise left shift
 //        int n = 5;
 //        for(int i = 1; i<=32; i++){
 //            n = n << 1;
