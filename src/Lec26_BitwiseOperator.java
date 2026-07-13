@@ -23,13 +23,25 @@ public class Lec26_BitwiseOperator {
 //            System.out.println(n);
 //        }
 
+// odd even
+//        int n = 11;
+////        if(n % 2 ==0){
+//        if((n&1) == 0){
+//            System.out.println("even");
+//        }
+//        else {
+//            System.out.println("odd");
+    }
 
-        int n = 11;
-        if(n % 2 ==0){
-            System.out.println("even");
+
+        // power of 2
+    int n = 5;
+    int count = 0;
+    while(n != 0){
+        if (n&1){
+            // mujha set bit milgyi
+
         }
-        else {
-            System.out.println("odd");
-        }
+
     }
 }
