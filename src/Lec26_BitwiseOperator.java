@@ -31,18 +31,22 @@ public class Lec26_BitwiseOperator {
 //        }
 //        else {
 //            System.out.println("odd");
-    }
+//    }
 
 
         // power of 2
     int n = 5;
     int count = 0;
     while(n != 0){
-        if (n&1){
+        if((n&1) != 0) {
             // mujha set bit milgyi
-        count ++;
-
+            count++;
         }
+        // right shift to move this bit
+        n = n >> 1;
+    }
+        System.out.println("set bit count " +count);
+
 
     }
 }
