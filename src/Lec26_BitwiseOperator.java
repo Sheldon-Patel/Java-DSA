@@ -60,5 +60,6 @@ public class Lec26_BitwiseOperator {
         }
 
 
+        System.out.println(3<<2);
     }
 }
