@@ -35,17 +35,29 @@ public class Lec26_BitwiseOperator {
 
 
         // power of 2
-    int n = 5;
-    int count = 0;
-    while(n != 0){
-        if((n&1) != 0) {
-            // mujha set bit milgyi
-            count++;
+
+        //brute approch
+//    int n = 5;
+//    int count = 0;
+//    while(n != 0){
+//        if((n&1) != 0) {
+//            // mujha set bit milgyi
+//            count++;
+//        }
+//        // right shift to move this bit
+//        n = n >> 1;
+//    }
+//        System.out.println("set bit count " +count);
+
+
+        //  better approch
+        int n = 16;
+        if((n & (n-1)) == 0){
+            System.out.println("power of 2 hai");
         }
-        // right shift to move this bit
-        n = n >> 1;
-    }
-        System.out.println("set bit count " +count);
+        else {
+            System.out.println("not power of 2");
+        }
 
 
     }
