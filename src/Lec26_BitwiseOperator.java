@@ -17,11 +17,19 @@ public class Lec26_BitwiseOperator {
 
 
         // bitwise right shift
-            int n = 100;
-        for(int i = 1; i<=10; i++){
-            n = n >> 1;
-            System.out.println(n);
+//            int n = 100;
+//        for(int i = 1; i<=10; i++){
+//            n = n >> 1;
+//            System.out.println(n);
+//        }
 
+
+        int n = 11;
+        if(n % 2 ==0){
+            System.out.println("even");
+        }
+        else {
+            System.out.println("odd");
         }
     }
 }
