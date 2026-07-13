@@ -71,6 +71,7 @@ public class Lec26_BitwiseOperator {
         System.out.println((n&(n-1)));
 
         // last set bit
+        System.out.println((n & (-n)));
 
 
     }
