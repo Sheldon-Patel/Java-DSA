@@ -67,6 +67,6 @@ public class Lec26_BitwiseOperator {
         //16/(2*2)  2 ke power 2 sa
 
         int n = 10;
-        System.out.println();
+        System.out.println((n&(n-1)));
     }
 }
