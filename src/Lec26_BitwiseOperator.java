@@ -66,7 +66,12 @@ public class Lec26_BitwiseOperator {
         System.out.println(16>>2);
         //16/(2*2)  2 ke power 2 sa
 
+        //remove last bit
         int n = 10;
         System.out.println((n&(n-1)));
+
+        // last set bit
+
+
     }
 }
