@@ -40,6 +40,7 @@ public class Lec26_BitwiseOperator {
     while(n != 0){
         if (n&1){
             // mujha set bit milgyi
+        count ++;
 
         }
 
