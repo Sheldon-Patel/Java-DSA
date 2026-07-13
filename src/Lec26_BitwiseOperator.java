@@ -51,15 +51,21 @@ public class Lec26_BitwiseOperator {
 
 
         //  better approch
-        int n = 16;
-        if((n & (n-1)) == 0){
-            System.out.println("power of 2 hai");
-        }
-        else {
-            System.out.println("not power of 2");
-        }
+//        int n = 16;
+//        if((n & (n-1)) == 0){
+//            System.out.println("power of 2 hai");
+//        }
+//        else {
+//            System.out.println("not power of 2");
+//        }
 
 
         System.out.println(3<<2);
+        //3*2*2
+
+        System.out.println(16>>2);
+        //16/(2*2)  2 ke power 2 sa
+
+        int n = 10;
     }
 }
