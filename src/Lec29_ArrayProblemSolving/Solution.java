@@ -4,20 +4,27 @@ package Lec29_ArrayProblemSolving;
 public class Solution {
     public int[] sortArray(int[] nums){
 
-        int n = arr.length;
+        int n = nums.length;
         int i =0;
         int j= n-1;
 
         while(i<j){
-            if (arr[i]==1 && arr[j]==0){
+            if (nums[i]==1 && nums[j]==0){
                 //swap
+                nums[i]=0;
+                nums[i]=1;
+
             }
-            if (arr[i]==0){
+            if (nums[i]==0){
                 // increment i
+                i++;
+
             }
-            if(arr[j==1]){
+            if(nums[j]==1){
                 //decerement j
+                j--;
             }
         }
+        return nums;
     }
 }
