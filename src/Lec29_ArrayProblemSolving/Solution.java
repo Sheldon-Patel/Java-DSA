@@ -12,7 +12,7 @@ public class Solution {
             if (nums[i]==1 && nums[j]==0){
                 //swap
                 nums[i]=0;
-                nums[i]=1;
+                nums[j]=1;
 
             }
             if (nums[i]==0){
@@ -26,5 +26,21 @@ public class Solution {
             }
         }
         return nums;
+    }
+}
+
+
+public class Main {
+    public static void main(String[] args) {
+
+        Solution obj = new Solution();
+
+        int[] nums = {0, 1, 1, 0, 1, 0};
+
+        int[] ans = obj.sortArray(nums);
+
+        for (int x : ans) {
+            System.out.print(x + " ");
+        }
     }
 }
