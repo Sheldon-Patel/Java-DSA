@@ -54,6 +54,9 @@ package Lec29_ArrayProblemSolving;
 
 
 // Missing value
+//time complexity: O(n)
+
+
 class Solution {
     public int missingNumber(int[] nums) {
         int xorSum = 0;
@@ -72,3 +75,10 @@ class Solution {
         return xorSum;
     }
 }
+
+
+public class Solution{
+
+    public static int findUnique(int[] arr){
+        //Your code goes here
+        int xorSum = 0;

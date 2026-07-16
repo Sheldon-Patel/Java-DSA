@@ -1,4 +1,6 @@
-public class Lec26_BitwiseOperator {
+package Lec26_BitwiseOperator;
+
+public class BitwiseOperator {
     static void main() {
 
         int a = 5;
@@ -72,7 +74,6 @@ public class Lec26_BitwiseOperator {
 
         // last set bit
         System.out.println((n & (-n)));
-
 
     }
 }
