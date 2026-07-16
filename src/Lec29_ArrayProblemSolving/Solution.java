@@ -77,6 +77,7 @@ class Solution {
 }
 
 
+// unique
 public class Solution{
 
     public static int findUnique(int[] arr){
