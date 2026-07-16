@@ -82,3 +82,9 @@ public class Solution{
     public static int findUnique(int[] arr){
         //Your code goes here
         int xorSum = 0;
+        for(int n:arr){
+            xorSum = xorSum ^ n;
+        }
+        return xorSum;
+    }
+}
