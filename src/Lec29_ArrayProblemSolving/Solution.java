@@ -78,7 +78,7 @@ package Lec29_ArrayProblemSolving;
 
 
 // unique element in array
-//time complexity:
+//time complexity: O(n)
 
 public class Solution{
 
