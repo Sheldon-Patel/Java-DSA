@@ -78,6 +78,8 @@ package Lec29_ArrayProblemSolving;
 
 
 // unique element in array
+//time complexity:
+
 public class Solution{
 
     public static int findUnique(int[] arr){
