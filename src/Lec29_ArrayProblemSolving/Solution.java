@@ -57,24 +57,24 @@ package Lec29_ArrayProblemSolving;
 //time complexity: O(n)
 
 
-class Solution {
-    public int missingNumber(int[] nums) {
-        int xorSum = 0;
-
-        //xor with all the array element
-        for(int n:nums){
-            xorSum = xorSum ^ n;
-        }
-
-        //xor all the element in the range
-        int n = nums.length;
-        for(int i= 0; i<= n; i++){
-            xorSum = xorSum ^ i;
-        }
-
-        return xorSum;
-    }
-}
+//class Solution {
+//    public int missingNumber(int[] nums) {
+//        int xorSum = 0;
+//
+//        //xor with all the array element
+//        for(int n:nums){
+//            xorSum = xorSum ^ n;
+//        }
+//
+//        //xor all the element in the range
+//        int n = nums.length;
+//        for(int i= 0; i<= n; i++){
+//            xorSum = xorSum ^ i;
+//        }
+//
+//        return xorSum;
+//    }
+//}
 
 
 // unique element in array
