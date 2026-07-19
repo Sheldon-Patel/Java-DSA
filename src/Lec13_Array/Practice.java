@@ -31,14 +31,16 @@ public class Practice {
 
 
         // sum of element in array
-        int[] arr = {3, 6, 2, 9, 1};
-        int sum = 0;
-        int n = arr.length;
+//        int[] arr = {3, 6, 2, 9, 1};
+//        int sum = 0;
+//        int n = arr.length;
+//
+//        for (int i=0; i<=n-1; i++){
+//            sum  = arr[i] + sum;
+//        }
+//        System.out.println(sum);
 
-        for (int i=0; i<=n-1; i++){
-            sum  = arr[i] + sum;
-        }
-        System.out.println(sum);
+        //multiply all element in array
 
 
 
