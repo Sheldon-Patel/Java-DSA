@@ -17,6 +17,9 @@ public class Practice {
 //        }
 //            System.out.println(maxValue);
 
+        // min value find out
+
+
 
     }
 }
