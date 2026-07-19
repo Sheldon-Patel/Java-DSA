@@ -41,6 +41,17 @@ public class Practice {
 //        System.out.println(sum);
 
         //multiply all element in array
+        int[] arr = {3, 6, 2, 9, 1};
+        int ans = 1;
+        int n = arr.length;
+
+        for (int i=0; i<=n-1; i++){
+            ans = ans*arr[i];
+
+        }
+        System.out.println(ans);
+
+
 
 
 
