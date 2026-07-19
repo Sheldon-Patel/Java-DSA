@@ -1,7 +1,7 @@
 package Lec13_Array;
 
 for all the time complixity is O(n)
-            space complixity is
+            space complixity is O
 public class Practice {
 
     static void main() {
