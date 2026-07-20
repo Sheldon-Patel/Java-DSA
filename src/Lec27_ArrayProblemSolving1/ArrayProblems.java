@@ -39,7 +39,7 @@ public class ArrayProblems {
     static void main() {
         int arr[]={1,2,3,4,5};
         int ans[] = multiplyBy10(arr);
-        System.out.println("printing arr ans");
+        System.out.println("printing arra ans");
         for (int i : ans){
             System.out.println(i);
         }
