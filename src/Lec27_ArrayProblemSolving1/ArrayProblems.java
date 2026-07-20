@@ -2,7 +2,7 @@ package Lec27_ArrayProblemSolving1;
 
 public class ArrayProblems {
 
-//    // avg of all elemnet in array
+//    // average of all elemnet in array
 //    static double getAverage(int [] arr){
 ////        int sum = 0;
 //// we get o/p in double but sum is int so make it double instead of int or throught typecasting
