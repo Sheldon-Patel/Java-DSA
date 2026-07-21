@@ -22,36 +22,52 @@ public class ArrayProblems {
 //    }
 
 
-    // multiply each element by 10 in an array
-    static int[] multiplyBy10(int [] arr){
-        int size = arr.length;
-        int[] newArray = new int[size];
+//    // multiply each element by 10 in an array
+//    static int[] multiplyBy10(int [] arr){
+//        int size = arr.length;
+//        int[] newArray = new int[size];
+//
+//        for(int i=0; i<size ; i++){
+//            int element = arr[i];
+//            int newElement = element *10;
+//            newArray[i] = newElement;
+//        }
+//        // return updated array
+//        return newArray;
+//    }
+//
+//
+//
+//    static void main() {
+//        int arr[]={1,2,3,4,5};
+//        int ans[] = multiplyBy10(arr);
+//        System.out.println("printing arrat answer");
+//        for (int i : ans){
+//            System.out.println(i);
+//        }
 
-        for(int i=0; i<size ; i++){
-            int element = arr[i];
-            int newElement = element *10;
-            newArray[i] = newElement;
-        }
-        // return updated array
-        return newArray;
-    }
 
-    //linear search - (search for an element in an array)
-    static boolean findTarget(int [] arr, int target){
-        for (int i=0; i<arr.length; i++){
-            if (arr[i] == target){
-                return true;
+
+
+        //linear search - (search for an element in an array)
+        static boolean findTarget(int [] arr, int target){
+            for (int i=0; i<arr.length; i++){
+                if (arr[i] == target){
+                    return true;
+                }
             }
+            return false;
         }
-        return false;
-    }
 
     static void main() {
-        int arr[]={1,2,3,4,5};
-        int ans[] = multiplyBy10(arr);
-        System.out.println("printing arrat answer");
-        for (int i : ans){
-            System.out.println(i);
-        }
+        int[]arr={2,5,3,1,7};
+        boolean ans = findTarget(arr,7);
+        System.out.println();
+    }
+
+
+
+
+
     }
 }
