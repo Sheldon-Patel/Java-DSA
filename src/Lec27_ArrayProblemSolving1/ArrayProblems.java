@@ -43,6 +43,7 @@ public class ArrayProblems {
                 return true;
             }
         }
+        return false;
     }
 
     static void main() {
