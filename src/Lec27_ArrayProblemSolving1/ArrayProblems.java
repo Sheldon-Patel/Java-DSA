@@ -36,6 +36,8 @@ public class ArrayProblems {
         return newArray;
     }
 
+    //linear search - (search for an element in an array)
+
     static void main() {
         int arr[]={1,2,3,4,5};
         int ans[] = multiplyBy10(arr);
