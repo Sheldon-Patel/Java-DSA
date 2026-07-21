@@ -56,18 +56,20 @@ public class ArrayProblems {
                     return true;
                 }
             }
+            // agar poora array travel ho chuka hai
+            // and ek bhar be target nahi mila
+            // iska matlab target is not present in the array so return false
             return false;
         }
 
     static void main() {
         int[]arr={2,5,3,1,7};
         boolean ans = findTarget(arr,7);
-        System.out.println();
+        System.out.println(ans);
     }
 
 
 
 
-
     }
-}
+
