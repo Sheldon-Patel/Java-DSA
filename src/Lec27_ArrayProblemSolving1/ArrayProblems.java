@@ -73,6 +73,13 @@ public class ArrayProblems {
 //    max element in an array
     static int getMaximun(int arr[]){
             int maxi = arr[0];
+
+            for (int i=0; i<arr.length; i++){
+                if (arr[i] > maxi) {
+                    maxi = arr[i];
+
+                }
+            }
     }
 
 
