@@ -90,9 +90,9 @@ static int getMaximun(int arr[]){
     int maxi = arr[0];
 
     for (int i=0; i<arr.length; i++){
-
+            maxi = Math.max(arr[i],maxi);
         }
-    }
+
     // jab ma vaha pochunga, tho pura array compare ho chuka hoga
     // and maxi ka ander sabse badi value hogi
     return maxi;
