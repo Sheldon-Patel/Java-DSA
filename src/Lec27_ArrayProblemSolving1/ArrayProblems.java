@@ -49,40 +49,59 @@ public class ArrayProblems {
 
 
 
-        //linear search - (search for an element in an array)
-        static boolean findTarget(int [] arr, int target){
-            for (int i=0; i<arr.length; i++){
-                if (arr[i] == target){
-                    return true;
-                }
-            }
-            // agar poora array travel ho chuka hai
-            // and ek bhar be target nahi mila
-            // iska matlab target is not present in the array so return false
-            return false;
-        }
-
-    static void main() {
-        int[]arr={2,5,3,1,7};
-        boolean ans = findTarget(arr,7);
-        System.out.println(ans);
-    }
+//        //linear search - (search for an element in an array)
+//        static boolean findTarget(int [] arr, int target){
+//            for (int i=0; i<arr.length; i++){
+//                if (arr[i] == target){
+//                    return true;
+//                }
+//            }
+//            // agar poora array travel ho chuka hai
+//            // and ek bhar be target nahi mila
+//            // iska matlab target is not present in the array so return false
+//            return false;
+//        }
+//
+//    static void main() {
+//        int[]arr={2,5,3,1,7};
+//        boolean ans = findTarget(arr,7);
+//        System.out.println(ans);
+//    }
 
 
 
 //    max element in an array
-    static int getMaximun(int arr[]){
-            int maxi = arr[0];
+//    static int getMaximun(int arr[]){
+//            int maxi = arr[0];
+//
+//            for (int i=0; i<arr.length; i++){
+//                if (arr[i] > maxi) {
+//                    maxi = arr[i];
+//                }
+//            }
+//            // jab ma vaha pochunga, tho pura array compare ho chuka hoga
+//        // and maxi ka ander sabse badi value hogi
+//            return maxi;
+//    }
 
-            for (int i=0; i<arr.length; i++){
-                if (arr[i] > maxi) {
-                    maxi = arr[i];
 
-                }
-            }
+// using Math.max()
+static int getMaximun(int arr[]){
+    int maxi = arr[0];
+
+    for (int i=0; i<arr.length; i++){
+
+        }
     }
+    // jab ma vaha pochunga, tho pura array compare ho chuka hoga
+    // and maxi ka ander sabse badi value hogi
+    return maxi;
+}
+    static void main() {
+                int[]arr={2,5,3,1,7,9};
+        System.out.println(getMaximun(arr));
 
-
+    }
 
 
     }
