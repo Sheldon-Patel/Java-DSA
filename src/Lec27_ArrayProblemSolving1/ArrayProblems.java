@@ -70,6 +70,10 @@ public class ArrayProblems {
 
 
 
+//    max element in an array
+
+
+
 
     }
 
