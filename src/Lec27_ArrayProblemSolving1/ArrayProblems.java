@@ -106,7 +106,12 @@ static int getMaximun(int arr[]){
 
     //return sum of positive and negative elements
     static int[] getPosNegSum(int arr[]){
+        int posSum = 0;
+        int negSum = 0;
 
+        for (int i=0; i<arr.length;i++){
+            
+        }
     }
 
 
