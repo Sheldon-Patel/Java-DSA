@@ -86,22 +86,22 @@ public class ArrayProblems {
 
 
 // using Math.max()
-static int getMaximun(int arr[]){
-    int maxi = arr[0];
-
-    for (int i=0; i<arr.length; i++){
-            maxi = Math.max(arr[i],maxi);
-        }
-
-    // jab ma vaha pochunga, tho pura array compare ho chuka hoga
-    // and maxi ka ander sabse badi value hogi
-    return maxi;
-}
-    static void main() {
-                int[]arr={2,5,3,1,7,9};
-        System.out.println(getMaximun(arr));
-
-    }
+//static int getMaximun(int arr[]){
+//    int maxi = arr[0];
+//
+//    for (int i=0; i<arr.length; i++){
+//            maxi = Math.max(arr[i],maxi);
+//        }
+//
+//    // jab ma vaha pochunga, tho pura array compare ho chuka hoga
+//    // and maxi ka ander sabse badi value hogi
+//    return maxi;
+//}
+//    static void main() {
+//                int[]arr={2,5,3,1,7,9};
+//        System.out.println(getMaximun(arr));
+//
+//    }
 
 
     //return sum of positive and negative elements
@@ -110,8 +110,22 @@ static int getMaximun(int arr[]){
         int negSum = 0;
 
         for (int i=0; i<arr.length;i++){
-            
+            if (posSum > 0){
+                //num is positive
+                posSum = posSum + arr[i];
+            }
+            else {
+                //num is negative
+                negSum = negSum + arr[i];
+            }
         }
+        int ans[]={posSum,negSum};
+        return ans;
+
+    }
+
+    static void main() {
+
     }
 
 
