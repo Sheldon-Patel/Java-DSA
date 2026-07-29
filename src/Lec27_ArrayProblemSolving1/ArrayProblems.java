@@ -105,6 +105,9 @@ static int getMaximun(int arr[]){
 
 
     //return sum of positive and negative elements
+    static int[] getPosNegSum(int arr[]){
+
+    }
 
 
     }
