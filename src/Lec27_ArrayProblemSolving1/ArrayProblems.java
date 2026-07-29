@@ -110,7 +110,7 @@ public class ArrayProblems {
         int negSum = 0;
 
         for (int i=0; i<arr.length;i++){
-            if (posSum > 0){
+            if (arr[i] > 0){
                 //num is positive
                 posSum = posSum + arr[i];
             }
@@ -125,6 +125,10 @@ public class ArrayProblems {
     }
 
     static void main() {
+        int arr[]={2,-3,-5,-7,9};
+        int ans[]=getPosNegSum(arr);
+        System.out.println("positive sum: "+ans[0]);
+        System.out.println("negative sum: "+ans[1]);
 
     }
 
