@@ -134,6 +134,10 @@ public class ArrayProblems {
 
 
     // count the number of zero and one
+static int[] getZeroOneCount(int arr[]){
+    int zeroCount = 0;
+    int oneCount = 0;
+
 
 
 
