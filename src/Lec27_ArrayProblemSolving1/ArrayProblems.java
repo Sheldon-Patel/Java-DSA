@@ -148,6 +148,16 @@ static int[] getZeroOneCount(int arr[]){
 
     }
     int ans[] ={zeroCount,oneCount};
+    return ans;
+}
+
+
+    static void main(){
+        int arr[] ={1,0,1,1,0,1,1};
+        int ans[] = getZeroOneCount(arr);
+        System.out.println("Zero count"+ans[0]);
+        System.out.println("One count"+ans[1]);
+    }
 
 
 
