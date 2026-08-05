@@ -146,6 +146,9 @@ static int[] getZeroOneCount(int arr[]){
             oneCount++;
         }
 
+    }
+    int ans[] ={zeroCount,oneCount};
+
 
 
 
