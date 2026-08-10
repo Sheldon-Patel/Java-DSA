@@ -164,7 +164,9 @@ public class ArrayProblems {
     // find unsorted element in the array
     static int getUnsortedElement(int arr[]){
         for (int i=0; i< arr.length; i++){
-            if(arr[i+1])
+            if(arr[i+1]>arr[i]){
+                // toh sub kuch thik hai
+            }
         }
     }
     }
