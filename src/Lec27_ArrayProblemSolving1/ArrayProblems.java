@@ -181,5 +181,10 @@ public class ArrayProblems {
         return -1;
     }
 
+    static void main() {
+        int arr[]={1,2,5,4,9};
+        System.out.println(getUnsortedElement(arr));
+    }
+
     }
 
