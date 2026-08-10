@@ -164,13 +164,22 @@ public class ArrayProblems {
     // find unsorted element in the array
     static int getUnsortedElement(int arr[]) {
         for (int i = 0; i < arr.length; i++) {
-            if (arr[i + 1] > arr[i]) {
-                // toh sub kuch thik hai
-                // kuch karna ka need nahi hai
-            } else {
+//            if (arr[i + 1] > arr[i]) {
+//                // toh sub kuch thik hai
+//                // kuch karna ka need nahi hai
+//            } else {
+////                arr[i + 1] <= arr[i]
+//                return arr[i+1];
+//            }
+            //right way to do this is
+            if(arr[i+1]<=arr[i]){
                 return arr[i+1];
             }
         }
+        //jis case ma se bhar ajaunga mean sorted loop which will not existed because it is said an unsorted elemnt
+        //so to just remove error and we have used int to make function return -1
+        return -1;
     }
+
     }
 
