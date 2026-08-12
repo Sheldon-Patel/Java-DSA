@@ -187,6 +187,7 @@ public class ArrayProblems {
 //    }
 
 
+// swap alternate elements in array
     public static void swapAlternate(int arr[]) {
         for (int i = 0; i < arr.length - 1; i += 2) {
             int temp = arr[i];
